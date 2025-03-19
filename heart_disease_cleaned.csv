@@ -1,0 +1,921 @@
+age,sex,dataset,cp,trestbps,chol,fbs,restecg,thalch,exang,oldpeak,slope,ca,thal,num
+63,male,Cleveland,typical angina,145.0,233.0,,lv hypertrophy,150.0,,2.3,downsloping,0,fixed defect,0
+67,male,Cleveland,asymptomatic,160.0,286.0,,lv hypertrophy,108.0,,1.5,flat,3,normal,2
+67,male,Cleveland,asymptomatic,120.0,229.0,,lv hypertrophy,129.0,,2.6,flat,2,reversable defect,1
+37,male,Cleveland,non-anginal,130.0,250.0,,normal,187.0,,3.5,downsloping,0,normal,0
+41,female,Cleveland,atypical angina,130.0,204.0,,lv hypertrophy,172.0,,1.4,upsloping,0,normal,0
+56,male,Cleveland,atypical angina,120.0,236.0,,normal,178.0,,0.8,upsloping,0,normal,0
+62,female,Cleveland,asymptomatic,140.0,268.0,,lv hypertrophy,160.0,,3.6,downsloping,2,normal,3
+57,female,Cleveland,asymptomatic,120.0,354.0,,normal,163.0,,0.6,upsloping,0,normal,0
+63,male,Cleveland,asymptomatic,130.0,254.0,,lv hypertrophy,147.0,,1.4,flat,1,reversable defect,2
+53,male,Cleveland,asymptomatic,140.0,203.0,,lv hypertrophy,155.0,,3.1,downsloping,0,reversable defect,1
+57,male,Cleveland,asymptomatic,140.0,192.0,,normal,148.0,,0.4,flat,0,fixed defect,0
+56,female,Cleveland,atypical angina,140.0,294.0,,lv hypertrophy,153.0,,1.3,flat,0,normal,0
+56,male,Cleveland,non-anginal,130.0,256.0,,lv hypertrophy,142.0,,0.6,flat,1,fixed defect,2
+44,male,Cleveland,atypical angina,120.0,263.0,,normal,173.0,,0.0,upsloping,0,reversable defect,0
+52,male,Cleveland,non-anginal,172.0,199.0,,normal,162.0,,0.5,upsloping,0,reversable defect,0
+57,male,Cleveland,non-anginal,150.0,168.0,,normal,174.0,,1.6,upsloping,0,normal,0
+48,male,Cleveland,atypical angina,110.0,229.0,,normal,168.0,,1.0,downsloping,0,reversable defect,1
+54,male,Cleveland,asymptomatic,140.0,239.0,,normal,160.0,,1.2,upsloping,0,normal,0
+48,female,Cleveland,non-anginal,130.0,275.0,,normal,139.0,,0.2,upsloping,0,normal,0
+49,male,Cleveland,atypical angina,130.0,266.0,,normal,171.0,,0.6,upsloping,0,normal,0
+64,male,Cleveland,typical angina,110.0,211.0,,lv hypertrophy,144.0,,1.8,flat,0,normal,0
+58,female,Cleveland,typical angina,150.0,283.0,,lv hypertrophy,162.0,,1.0,upsloping,0,normal,0
+58,male,Cleveland,atypical angina,120.0,284.0,,lv hypertrophy,160.0,,1.8,flat,0,normal,1
+58,male,Cleveland,non-anginal,132.0,224.0,,lv hypertrophy,173.0,,3.2,upsloping,2,reversable defect,3
+60,male,Cleveland,asymptomatic,130.0,206.0,,lv hypertrophy,132.0,,2.4,flat,2,reversable defect,4
+50,female,Cleveland,non-anginal,120.0,219.0,,normal,158.0,,1.6,flat,0,normal,0
+58,female,Cleveland,non-anginal,120.0,340.0,,normal,172.0,,0.0,upsloping,0,normal,0
+66,female,Cleveland,typical angina,150.0,226.0,,normal,114.0,,2.6,downsloping,0,normal,0
+43,male,Cleveland,asymptomatic,150.0,247.0,,normal,171.0,,1.5,upsloping,0,normal,0
+40,male,Cleveland,asymptomatic,110.0,167.0,,lv hypertrophy,114.0,,2.0,flat,0,reversable defect,3
+69,female,Cleveland,typical angina,140.0,239.0,,normal,151.0,,1.8,upsloping,2,normal,0
+60,male,Cleveland,asymptomatic,117.0,230.0,,normal,160.0,,1.4,upsloping,2,reversable defect,2
+64,male,Cleveland,non-anginal,140.0,335.0,,normal,158.0,,0.0,upsloping,0,normal,1
+59,male,Cleveland,asymptomatic,135.0,234.0,,normal,161.0,,0.5,flat,0,reversable defect,0
+44,male,Cleveland,non-anginal,130.0,233.0,,normal,179.0,,0.4,upsloping,0,normal,0
+42,male,Cleveland,asymptomatic,140.0,226.0,,normal,178.0,,0.0,upsloping,0,normal,0
+43,male,Cleveland,asymptomatic,120.0,177.0,,lv hypertrophy,120.0,,2.5,flat,0,reversable defect,3
+57,male,Cleveland,asymptomatic,150.0,276.0,,lv hypertrophy,112.0,,0.6,flat,1,fixed defect,1
+55,male,Cleveland,asymptomatic,132.0,353.0,,normal,132.0,,1.2,flat,1,reversable defect,3
+61,male,Cleveland,non-anginal,150.0,243.0,,normal,137.0,,1.0,flat,0,normal,0
+65,female,Cleveland,asymptomatic,150.0,225.0,,lv hypertrophy,114.0,,1.0,flat,3,reversable defect,4
+40,male,Cleveland,typical angina,140.0,199.0,,normal,178.0,,1.4,upsloping,0,reversable defect,0
+71,female,Cleveland,atypical angina,160.0,302.0,,normal,162.0,,0.4,upsloping,2,normal,0
+59,male,Cleveland,non-anginal,150.0,212.0,,normal,157.0,,1.6,upsloping,0,normal,0
+61,female,Cleveland,asymptomatic,130.0,330.0,,lv hypertrophy,169.0,,0.0,upsloping,0,normal,1
+58,male,Cleveland,non-anginal,112.0,230.0,,lv hypertrophy,165.0,,2.5,flat,1,reversable defect,4
+51,male,Cleveland,non-anginal,110.0,175.0,,normal,123.0,,0.6,upsloping,0,normal,0
+50,male,Cleveland,asymptomatic,150.0,243.0,,lv hypertrophy,128.0,,2.6,flat,0,reversable defect,4
+65,female,Cleveland,non-anginal,140.0,417.0,,lv hypertrophy,157.0,,0.8,upsloping,1,normal,0
+53,male,Cleveland,non-anginal,130.0,197.0,,lv hypertrophy,152.0,,1.2,downsloping,0,normal,0
+41,female,Cleveland,atypical angina,105.0,198.0,,normal,168.0,,0.0,upsloping,1,normal,0
+65,male,Cleveland,asymptomatic,120.0,177.0,,normal,140.0,,0.4,upsloping,0,reversable defect,0
+44,male,Cleveland,asymptomatic,112.0,290.0,,lv hypertrophy,153.0,,0.0,upsloping,1,normal,2
+44,male,Cleveland,atypical angina,130.0,219.0,,lv hypertrophy,188.0,,0.0,upsloping,0,normal,0
+60,male,Cleveland,asymptomatic,130.0,253.0,,normal,144.0,,1.4,upsloping,1,reversable defect,1
+54,male,Cleveland,asymptomatic,124.0,266.0,,lv hypertrophy,109.0,,2.2,flat,1,reversable defect,1
+50,male,Cleveland,non-anginal,140.0,233.0,,normal,163.0,,0.6,flat,1,reversable defect,1
+41,male,Cleveland,asymptomatic,110.0,172.0,,lv hypertrophy,158.0,,0.0,upsloping,0,reversable defect,1
+54,male,Cleveland,non-anginal,125.0,273.0,,lv hypertrophy,152.0,,0.5,downsloping,1,normal,0
+51,male,Cleveland,typical angina,125.0,213.0,,lv hypertrophy,125.0,,1.4,upsloping,1,normal,0
+51,female,Cleveland,asymptomatic,130.0,305.0,,normal,142.0,,1.2,flat,0,reversable defect,2
+46,female,Cleveland,non-anginal,142.0,177.0,,lv hypertrophy,160.0,,1.4,downsloping,0,normal,0
+58,male,Cleveland,asymptomatic,128.0,216.0,,lv hypertrophy,131.0,,2.2,flat,3,reversable defect,1
+54,female,Cleveland,non-anginal,135.0,304.0,,normal,170.0,,0.0,upsloping,0,normal,0
+54,male,Cleveland,asymptomatic,120.0,188.0,,normal,113.0,,1.4,flat,1,reversable defect,2
+60,male,Cleveland,asymptomatic,145.0,282.0,,lv hypertrophy,142.0,,2.8,flat,2,reversable defect,2
+60,male,Cleveland,non-anginal,140.0,185.0,,lv hypertrophy,155.0,,3.0,flat,0,normal,1
+54,male,Cleveland,non-anginal,150.0,232.0,,lv hypertrophy,165.0,,1.6,upsloping,0,reversable defect,0
+59,male,Cleveland,asymptomatic,170.0,326.0,,lv hypertrophy,140.0,,3.4,downsloping,0,reversable defect,2
+46,male,Cleveland,non-anginal,150.0,231.0,,normal,147.0,,3.6,flat,0,normal,1
+65,female,Cleveland,non-anginal,155.0,269.0,,normal,148.0,,0.8,upsloping,0,normal,0
+67,male,Cleveland,asymptomatic,125.0,254.0,,normal,163.0,,0.2,flat,2,reversable defect,3
+62,male,Cleveland,asymptomatic,120.0,267.0,,normal,99.0,,1.8,flat,2,reversable defect,1
+65,male,Cleveland,asymptomatic,110.0,248.0,,lv hypertrophy,158.0,,0.6,upsloping,2,fixed defect,1
+44,male,Cleveland,asymptomatic,110.0,197.0,,lv hypertrophy,177.0,,0.0,upsloping,1,normal,1
+65,female,Cleveland,non-anginal,160.0,360.0,,lv hypertrophy,151.0,,0.8,upsloping,0,normal,0
+60,male,Cleveland,asymptomatic,125.0,258.0,,lv hypertrophy,141.0,,2.8,flat,1,reversable defect,1
+51,female,Cleveland,non-anginal,140.0,308.0,,lv hypertrophy,142.0,,1.5,upsloping,1,normal,0
+48,male,Cleveland,atypical angina,130.0,245.0,,lv hypertrophy,180.0,,0.2,flat,0,normal,0
+58,male,Cleveland,asymptomatic,150.0,270.0,,lv hypertrophy,111.0,,0.8,upsloping,0,reversable defect,3
+45,male,Cleveland,asymptomatic,104.0,208.0,,lv hypertrophy,148.0,,3.0,flat,0,normal,0
+53,female,Cleveland,asymptomatic,130.0,264.0,,lv hypertrophy,143.0,,0.4,flat,0,normal,0
+39,male,Cleveland,non-anginal,140.0,321.0,,lv hypertrophy,182.0,,0.0,upsloping,0,normal,0
+68,male,Cleveland,non-anginal,180.0,274.0,,lv hypertrophy,150.0,,1.6,flat,0,reversable defect,3
+52,male,Cleveland,atypical angina,120.0,325.0,,normal,172.0,,0.2,upsloping,0,normal,0
+44,male,Cleveland,non-anginal,140.0,235.0,,lv hypertrophy,180.0,,0.0,upsloping,0,normal,0
+47,male,Cleveland,non-anginal,138.0,257.0,,lv hypertrophy,156.0,,0.0,upsloping,0,normal,0
+53,female,Cleveland,non-anginal,128.0,216.0,,lv hypertrophy,115.0,,0.0,upsloping,0,normal,0
+53,female,Cleveland,asymptomatic,138.0,234.0,,lv hypertrophy,160.0,,0.0,upsloping,0,normal,0
+51,female,Cleveland,non-anginal,130.0,256.0,,lv hypertrophy,149.0,,0.5,upsloping,0,normal,0
+66,male,Cleveland,asymptomatic,120.0,302.0,,lv hypertrophy,151.0,,0.4,flat,0,normal,0
+62,female,Cleveland,asymptomatic,160.0,164.0,,lv hypertrophy,145.0,,6.2,downsloping,3,reversable defect,3
+62,male,Cleveland,non-anginal,130.0,231.0,,normal,146.0,,1.8,flat,3,reversable defect,0
+44,female,Cleveland,non-anginal,108.0,141.0,,normal,175.0,,0.6,flat,0,normal,0
+63,female,Cleveland,non-anginal,135.0,252.0,,lv hypertrophy,172.0,,0.0,upsloping,0,normal,0
+52,male,Cleveland,asymptomatic,128.0,255.0,,normal,161.0,,0.0,upsloping,1,reversable defect,1
+59,male,Cleveland,asymptomatic,110.0,239.0,,lv hypertrophy,142.0,,1.2,flat,1,reversable defect,2
+60,female,Cleveland,asymptomatic,150.0,258.0,,lv hypertrophy,157.0,,2.6,flat,2,reversable defect,3
+52,male,Cleveland,atypical angina,134.0,201.0,,normal,158.0,,0.8,upsloping,1,normal,0
+48,male,Cleveland,asymptomatic,122.0,222.0,,lv hypertrophy,186.0,,0.0,upsloping,0,normal,0
+45,male,Cleveland,asymptomatic,115.0,260.0,,lv hypertrophy,185.0,,0.0,upsloping,0,normal,0
+34,male,Cleveland,typical angina,118.0,182.0,,lv hypertrophy,174.0,,0.0,upsloping,0,normal,0
+57,female,Cleveland,asymptomatic,128.0,303.0,,lv hypertrophy,159.0,,0.0,upsloping,1,normal,0
+71,female,Cleveland,non-anginal,110.0,265.0,,lv hypertrophy,130.0,,0.0,upsloping,1,normal,0
+49,male,Cleveland,non-anginal,120.0,188.0,,normal,139.0,,2.0,flat,3,reversable defect,3
+54,male,Cleveland,atypical angina,108.0,309.0,,normal,156.0,,0.0,upsloping,0,reversable defect,0
+59,male,Cleveland,asymptomatic,140.0,177.0,,normal,162.0,,0.0,upsloping,1,reversable defect,2
+57,male,Cleveland,non-anginal,128.0,229.0,,lv hypertrophy,150.0,,0.4,flat,1,reversable defect,1
+61,male,Cleveland,asymptomatic,120.0,260.0,,normal,140.0,,3.6,flat,1,reversable defect,2
+39,male,Cleveland,asymptomatic,118.0,219.0,,normal,140.0,,1.2,flat,0,reversable defect,3
+61,female,Cleveland,asymptomatic,145.0,307.0,,lv hypertrophy,146.0,,1.0,flat,0,reversable defect,1
+56,male,Cleveland,asymptomatic,125.0,249.0,,lv hypertrophy,144.0,,1.2,flat,1,normal,1
+52,male,Cleveland,typical angina,118.0,186.0,,lv hypertrophy,190.0,,0.0,flat,0,fixed defect,0
+43,female,Cleveland,asymptomatic,132.0,341.0,,lv hypertrophy,136.0,,3.0,flat,0,reversable defect,2
+62,female,Cleveland,non-anginal,130.0,263.0,,normal,97.0,,1.2,flat,1,reversable defect,2
+41,male,Cleveland,atypical angina,135.0,203.0,,normal,132.0,,0.0,flat,0,fixed defect,0
+58,male,Cleveland,non-anginal,140.0,211.0,,lv hypertrophy,165.0,,0.0,upsloping,0,normal,0
+35,female,Cleveland,asymptomatic,138.0,183.0,,normal,182.0,,1.4,upsloping,0,normal,0
+63,male,Cleveland,asymptomatic,130.0,330.0,,lv hypertrophy,132.0,,1.8,upsloping,3,reversable defect,3
+65,male,Cleveland,asymptomatic,135.0,254.0,,lv hypertrophy,127.0,,2.8,flat,1,reversable defect,2
+48,male,Cleveland,asymptomatic,130.0,256.0,,lv hypertrophy,150.0,,0.0,upsloping,2,reversable defect,3
+63,female,Cleveland,asymptomatic,150.0,407.0,,lv hypertrophy,154.0,,4.0,flat,3,reversable defect,4
+51,male,Cleveland,non-anginal,100.0,222.0,,normal,143.0,,1.2,flat,0,normal,0
+55,male,Cleveland,asymptomatic,140.0,217.0,,normal,111.0,,5.6,downsloping,0,reversable defect,3
+65,male,Cleveland,typical angina,138.0,282.0,,lv hypertrophy,174.0,,1.4,flat,1,normal,1
+45,female,Cleveland,atypical angina,130.0,234.0,,lv hypertrophy,175.0,,0.6,flat,0,normal,0
+56,female,Cleveland,asymptomatic,200.0,288.0,,lv hypertrophy,133.0,,4.0,downsloping,2,reversable defect,3
+54,male,Cleveland,asymptomatic,110.0,239.0,,normal,126.0,,2.8,flat,1,reversable defect,3
+44,male,Cleveland,atypical angina,120.0,220.0,,normal,170.0,,0.0,upsloping,0,normal,0
+62,female,Cleveland,asymptomatic,124.0,209.0,,normal,163.0,,0.0,upsloping,0,normal,0
+54,male,Cleveland,non-anginal,120.0,258.0,,lv hypertrophy,147.0,,0.4,flat,0,reversable defect,0
+51,male,Cleveland,non-anginal,94.0,227.0,,normal,154.0,,0.0,upsloping,1,reversable defect,0
+29,male,Cleveland,atypical angina,130.0,204.0,,lv hypertrophy,202.0,,0.0,upsloping,0,normal,0
+51,male,Cleveland,asymptomatic,140.0,261.0,,lv hypertrophy,186.0,,0.0,upsloping,0,normal,0
+43,female,Cleveland,non-anginal,122.0,213.0,,normal,165.0,,0.2,flat,0,normal,0
+55,female,Cleveland,atypical angina,135.0,250.0,,lv hypertrophy,161.0,,1.4,flat,0,normal,0
+70,male,Cleveland,asymptomatic,145.0,174.0,,normal,125.0,,2.6,downsloping,0,reversable defect,4
+62,male,Cleveland,atypical angina,120.0,281.0,,lv hypertrophy,103.0,,1.4,flat,1,reversable defect,3
+35,male,Cleveland,asymptomatic,120.0,198.0,,normal,130.0,,1.6,flat,0,reversable defect,1
+51,male,Cleveland,non-anginal,125.0,245.0,,lv hypertrophy,166.0,,2.4,flat,0,normal,0
+59,male,Cleveland,atypical angina,140.0,221.0,,normal,164.0,,0.0,upsloping,0,normal,0
+59,male,Cleveland,typical angina,170.0,288.0,,lv hypertrophy,159.0,,0.2,flat,0,reversable defect,1
+52,male,Cleveland,atypical angina,128.0,205.0,,normal,184.0,,0.0,upsloping,0,normal,0
+64,male,Cleveland,non-anginal,125.0,309.0,,normal,131.0,,1.8,flat,0,reversable defect,1
+58,male,Cleveland,non-anginal,105.0,240.0,,lv hypertrophy,154.0,,0.6,flat,0,reversable defect,0
+47,male,Cleveland,non-anginal,108.0,243.0,,normal,152.0,,0.0,upsloping,0,normal,1
+57,male,Cleveland,asymptomatic,165.0,289.0,,lv hypertrophy,124.0,,1.0,flat,3,reversable defect,4
+41,male,Cleveland,non-anginal,112.0,250.0,,normal,179.0,,0.0,upsloping,0,normal,0
+45,male,Cleveland,atypical angina,128.0,308.0,,lv hypertrophy,170.0,,0.0,upsloping,0,normal,0
+60,female,Cleveland,non-anginal,102.0,318.0,,normal,160.0,,0.0,upsloping,1,normal,0
+52,male,Cleveland,typical angina,152.0,298.0,,normal,178.0,,1.2,flat,0,reversable defect,0
+42,female,Cleveland,asymptomatic,102.0,265.0,,lv hypertrophy,122.0,,0.6,flat,0,normal,0
+67,female,Cleveland,non-anginal,115.0,564.0,,lv hypertrophy,160.0,,1.6,flat,0,reversable defect,0
+55,male,Cleveland,asymptomatic,160.0,289.0,,lv hypertrophy,145.0,,0.8,flat,1,reversable defect,4
+64,male,Cleveland,asymptomatic,120.0,246.0,,lv hypertrophy,96.0,,2.2,downsloping,1,normal,3
+70,male,Cleveland,asymptomatic,130.0,322.0,,lv hypertrophy,109.0,,2.4,flat,3,normal,1
+51,male,Cleveland,asymptomatic,140.0,299.0,,normal,173.0,,1.6,upsloping,0,reversable defect,1
+58,male,Cleveland,asymptomatic,125.0,300.0,,lv hypertrophy,171.0,,0.0,upsloping,2,reversable defect,1
+60,male,Cleveland,asymptomatic,140.0,293.0,,lv hypertrophy,170.0,,1.2,flat,2,reversable defect,2
+68,male,Cleveland,non-anginal,118.0,277.0,,normal,151.0,,1.0,upsloping,1,reversable defect,0
+46,male,Cleveland,atypical angina,101.0,197.0,,normal,156.0,,0.0,upsloping,0,reversable defect,0
+77,male,Cleveland,asymptomatic,125.0,304.0,,lv hypertrophy,162.0,,0.0,upsloping,3,normal,4
+54,female,Cleveland,non-anginal,110.0,214.0,,normal,158.0,,1.6,flat,0,normal,0
+58,female,Cleveland,asymptomatic,100.0,248.0,,lv hypertrophy,122.0,,1.0,flat,0,normal,0
+48,male,Cleveland,non-anginal,124.0,255.0,,normal,175.0,,0.0,upsloping,2,normal,0
+57,male,Cleveland,asymptomatic,132.0,207.0,,normal,168.0,,0.0,upsloping,0,reversable defect,0
+52,male,Cleveland,non-anginal,138.0,223.0,,normal,169.0,,0.0,upsloping,-1,normal,0
+54,female,Cleveland,atypical angina,132.0,288.0,,lv hypertrophy,159.0,,0.0,upsloping,1,normal,0
+35,male,Cleveland,asymptomatic,126.0,282.0,,lv hypertrophy,156.0,,0.0,upsloping,0,reversable defect,1
+45,female,Cleveland,atypical angina,112.0,160.0,,normal,138.0,,0.0,flat,0,normal,0
+70,male,Cleveland,non-anginal,160.0,269.0,,normal,112.0,,2.9,flat,1,reversable defect,3
+53,male,Cleveland,asymptomatic,142.0,226.0,,lv hypertrophy,111.0,,0.0,upsloping,0,reversable defect,0
+59,female,Cleveland,asymptomatic,174.0,249.0,,normal,143.0,,0.0,flat,0,normal,1
+62,female,Cleveland,asymptomatic,140.0,394.0,,lv hypertrophy,157.0,,1.2,flat,0,normal,0
+64,male,Cleveland,asymptomatic,145.0,212.0,,lv hypertrophy,132.0,,2.0,flat,2,fixed defect,4
+57,male,Cleveland,asymptomatic,152.0,274.0,,normal,88.0,,1.2,flat,1,reversable defect,1
+52,male,Cleveland,asymptomatic,108.0,233.0,,normal,147.0,,0.1,upsloping,3,reversable defect,0
+56,male,Cleveland,asymptomatic,132.0,184.0,,lv hypertrophy,105.0,,2.1,flat,1,fixed defect,1
+43,male,Cleveland,non-anginal,130.0,315.0,,normal,162.0,,1.9,upsloping,1,normal,0
+53,male,Cleveland,non-anginal,130.0,246.0,,lv hypertrophy,173.0,,0.0,upsloping,3,normal,0
+48,male,Cleveland,asymptomatic,124.0,274.0,,lv hypertrophy,166.0,,0.5,flat,0,reversable defect,3
+56,female,Cleveland,asymptomatic,134.0,409.0,,lv hypertrophy,150.0,,1.9,flat,2,reversable defect,2
+42,male,Cleveland,typical angina,148.0,244.0,,lv hypertrophy,178.0,,0.8,upsloping,2,normal,0
+59,male,Cleveland,typical angina,178.0,270.0,,lv hypertrophy,145.0,,4.2,downsloping,0,reversable defect,0
+60,female,Cleveland,asymptomatic,158.0,305.0,,lv hypertrophy,161.0,,0.0,upsloping,0,normal,1
+63,female,Cleveland,atypical angina,140.0,195.0,,normal,179.0,,0.0,upsloping,2,normal,0
+42,male,Cleveland,non-anginal,120.0,240.0,,normal,194.0,,0.8,downsloping,0,reversable defect,0
+66,male,Cleveland,atypical angina,160.0,246.0,,normal,120.0,,0.0,flat,3,fixed defect,2
+54,male,Cleveland,atypical angina,192.0,283.0,,lv hypertrophy,195.0,,0.0,upsloping,1,reversable defect,1
+69,male,Cleveland,non-anginal,140.0,254.0,,lv hypertrophy,146.0,,2.0,flat,3,reversable defect,2
+50,male,Cleveland,non-anginal,129.0,196.0,,normal,163.0,,0.0,upsloping,0,normal,0
+51,male,Cleveland,asymptomatic,140.0,298.0,,normal,122.0,,4.2,flat,3,reversable defect,3
+43,male,Cleveland,asymptomatic,132.0,247.0,,lv hypertrophy,143.0,,0.1,flat,-1,reversable defect,1
+62,female,Cleveland,asymptomatic,138.0,294.0,,normal,106.0,,1.9,flat,3,normal,2
+68,female,Cleveland,non-anginal,120.0,211.0,,lv hypertrophy,115.0,,1.5,flat,0,normal,0
+67,male,Cleveland,asymptomatic,100.0,299.0,,lv hypertrophy,125.0,,0.9,flat,2,normal,3
+69,male,Cleveland,typical angina,160.0,234.0,,lv hypertrophy,131.0,,0.1,flat,1,normal,0
+45,female,Cleveland,asymptomatic,138.0,236.0,,lv hypertrophy,152.0,,0.2,flat,0,normal,0
+50,female,Cleveland,atypical angina,120.0,244.0,,normal,162.0,,1.1,upsloping,0,normal,0
+59,male,Cleveland,typical angina,160.0,273.0,,lv hypertrophy,125.0,,0.0,upsloping,0,normal,1
+50,female,Cleveland,asymptomatic,110.0,254.0,,lv hypertrophy,159.0,,0.0,upsloping,0,normal,0
+64,female,Cleveland,asymptomatic,180.0,325.0,,normal,154.0,,0.0,upsloping,0,normal,0
+57,male,Cleveland,non-anginal,150.0,126.0,,normal,173.0,,0.2,upsloping,1,reversable defect,0
+64,female,Cleveland,non-anginal,140.0,313.0,,normal,133.0,,0.2,upsloping,0,reversable defect,0
+43,male,Cleveland,asymptomatic,110.0,211.0,,normal,161.0,,0.0,upsloping,0,reversable defect,0
+45,male,Cleveland,asymptomatic,142.0,309.0,,lv hypertrophy,147.0,,0.0,flat,3,reversable defect,3
+58,male,Cleveland,asymptomatic,128.0,259.0,,lv hypertrophy,130.0,,3.0,flat,2,reversable defect,3
+50,male,Cleveland,asymptomatic,144.0,200.0,,lv hypertrophy,126.0,,0.9,flat,0,reversable defect,3
+55,male,Cleveland,atypical angina,130.0,262.0,,normal,155.0,,0.0,upsloping,0,normal,0
+62,female,Cleveland,asymptomatic,150.0,244.0,,normal,154.0,,1.4,flat,0,normal,1
+37,female,Cleveland,non-anginal,120.0,215.0,,normal,170.0,,0.0,upsloping,0,normal,0
+38,male,Cleveland,typical angina,120.0,231.0,,normal,182.0,,3.8,flat,0,reversable defect,4
+41,male,Cleveland,non-anginal,130.0,214.0,,lv hypertrophy,168.0,,2.0,flat,0,normal,0
+66,female,Cleveland,asymptomatic,178.0,228.0,,normal,165.0,,1.0,flat,2,reversable defect,3
+52,male,Cleveland,asymptomatic,112.0,230.0,,normal,160.0,,0.0,upsloping,1,normal,1
+56,male,Cleveland,typical angina,120.0,193.0,,lv hypertrophy,162.0,,1.9,flat,0,reversable defect,0
+46,female,Cleveland,atypical angina,105.0,204.0,,normal,172.0,,0.0,upsloping,0,normal,0
+46,female,Cleveland,asymptomatic,138.0,243.0,,lv hypertrophy,152.0,,0.0,flat,0,normal,0
+64,female,Cleveland,asymptomatic,130.0,303.0,,normal,122.0,,2.0,flat,2,normal,0
+59,male,Cleveland,asymptomatic,138.0,271.0,,lv hypertrophy,182.0,,0.0,upsloping,0,normal,0
+41,female,Cleveland,non-anginal,112.0,268.0,,lv hypertrophy,172.0,,0.0,upsloping,0,normal,0
+54,female,Cleveland,non-anginal,108.0,267.0,,lv hypertrophy,167.0,,0.0,upsloping,0,normal,0
+39,female,Cleveland,non-anginal,94.0,199.0,,normal,179.0,,0.0,upsloping,0,normal,0
+53,male,Cleveland,asymptomatic,123.0,282.0,,normal,95.0,,2.0,flat,2,reversable defect,3
+63,female,Cleveland,asymptomatic,108.0,269.0,,normal,169.0,,1.8,flat,2,normal,1
+34,female,Cleveland,atypical angina,118.0,210.0,,normal,192.0,,0.7,upsloping,0,normal,0
+47,male,Cleveland,asymptomatic,112.0,204.0,,normal,143.0,,0.1,upsloping,0,normal,0
+67,female,Cleveland,non-anginal,152.0,277.0,,normal,172.0,,0.0,upsloping,1,normal,0
+54,male,Cleveland,asymptomatic,110.0,206.0,,lv hypertrophy,108.0,,0.0,flat,1,normal,3
+66,male,Cleveland,asymptomatic,112.0,212.0,,lv hypertrophy,132.0,,0.1,upsloping,1,normal,2
+52,female,Cleveland,non-anginal,136.0,196.0,,lv hypertrophy,169.0,,0.1,flat,0,normal,0
+55,female,Cleveland,asymptomatic,180.0,327.0,,st-t abnormality,117.0,,3.4,flat,0,normal,2
+49,male,Cleveland,non-anginal,118.0,149.0,,lv hypertrophy,126.0,,0.8,upsloping,3,normal,1
+74,female,Cleveland,atypical angina,120.0,269.0,,lv hypertrophy,121.0,,0.2,upsloping,1,normal,0
+54,female,Cleveland,non-anginal,160.0,201.0,,normal,163.0,,0.0,upsloping,1,normal,0
+54,male,Cleveland,asymptomatic,122.0,286.0,,lv hypertrophy,116.0,,3.2,flat,2,normal,3
+56,male,Cleveland,asymptomatic,130.0,283.0,,lv hypertrophy,103.0,,1.6,downsloping,0,reversable defect,2
+46,male,Cleveland,asymptomatic,120.0,249.0,,lv hypertrophy,144.0,,0.8,upsloping,0,reversable defect,1
+49,female,Cleveland,atypical angina,134.0,271.0,,normal,162.0,,0.0,flat,0,normal,0
+42,male,Cleveland,atypical angina,120.0,295.0,,normal,162.0,,0.0,upsloping,0,normal,0
+41,male,Cleveland,atypical angina,110.0,235.0,,normal,153.0,,0.0,upsloping,0,normal,0
+41,female,Cleveland,atypical angina,126.0,306.0,,normal,163.0,,0.0,upsloping,0,normal,0
+49,female,Cleveland,asymptomatic,130.0,269.0,,normal,163.0,,0.0,upsloping,0,normal,0
+61,male,Cleveland,typical angina,134.0,234.0,,normal,145.0,,2.6,flat,2,normal,2
+60,female,Cleveland,non-anginal,120.0,178.0,,normal,96.0,,0.0,upsloping,0,normal,0
+67,male,Cleveland,asymptomatic,120.0,237.0,,normal,71.0,,1.0,flat,0,normal,2
+58,male,Cleveland,asymptomatic,100.0,234.0,,normal,156.0,,0.1,upsloping,1,reversable defect,2
+47,male,Cleveland,asymptomatic,110.0,275.0,,lv hypertrophy,118.0,,1.0,flat,1,normal,1
+52,male,Cleveland,asymptomatic,125.0,212.0,,normal,168.0,,1.0,upsloping,2,reversable defect,3
+62,male,Cleveland,atypical angina,128.0,208.0,,lv hypertrophy,140.0,,0.0,upsloping,0,normal,0
+57,male,Cleveland,asymptomatic,110.0,201.0,,normal,126.0,,1.5,flat,0,fixed defect,0
+58,male,Cleveland,asymptomatic,146.0,218.0,,normal,105.0,,2.0,flat,1,reversable defect,1
+64,male,Cleveland,asymptomatic,128.0,263.0,,normal,105.0,,0.2,flat,1,reversable defect,0
+51,female,Cleveland,non-anginal,120.0,295.0,,lv hypertrophy,157.0,,0.6,upsloping,0,normal,0
+43,male,Cleveland,asymptomatic,115.0,303.0,,normal,181.0,,1.2,flat,0,normal,0
+42,female,Cleveland,non-anginal,120.0,209.0,,normal,173.0,,0.0,flat,0,normal,0
+67,female,Cleveland,asymptomatic,106.0,223.0,,normal,142.0,,0.3,upsloping,2,normal,0
+76,female,Cleveland,non-anginal,140.0,197.0,,st-t abnormality,116.0,,1.1,flat,0,normal,0
+70,male,Cleveland,atypical angina,156.0,245.0,,lv hypertrophy,143.0,,0.0,upsloping,0,normal,0
+57,male,Cleveland,atypical angina,124.0,261.0,,normal,141.0,,0.3,upsloping,0,reversable defect,1
+44,female,Cleveland,non-anginal,118.0,242.0,,normal,149.0,,0.3,flat,1,normal,0
+58,female,Cleveland,atypical angina,136.0,319.0,,lv hypertrophy,152.0,,0.0,upsloping,2,normal,3
+60,female,Cleveland,typical angina,150.0,240.0,,normal,171.0,,0.9,upsloping,0,normal,0
+44,male,Cleveland,non-anginal,120.0,226.0,,normal,169.0,,0.0,upsloping,0,normal,0
+61,male,Cleveland,asymptomatic,138.0,166.0,,lv hypertrophy,125.0,,3.6,flat,1,normal,4
+42,male,Cleveland,asymptomatic,136.0,315.0,,normal,125.0,,1.8,flat,0,fixed defect,2
+52,male,Cleveland,asymptomatic,128.0,204.0,,normal,156.0,,1.0,flat,0,normal,2
+59,male,Cleveland,non-anginal,126.0,218.0,,normal,134.0,,2.2,flat,1,fixed defect,2
+40,male,Cleveland,asymptomatic,152.0,223.0,,normal,181.0,,0.0,upsloping,0,reversable defect,1
+42,male,Cleveland,non-anginal,130.0,180.0,,normal,150.0,,0.0,upsloping,0,normal,0
+61,male,Cleveland,asymptomatic,140.0,207.0,,lv hypertrophy,138.0,,1.9,upsloping,1,reversable defect,1
+66,male,Cleveland,asymptomatic,160.0,228.0,,lv hypertrophy,138.0,,2.3,upsloping,0,fixed defect,0
+46,male,Cleveland,asymptomatic,140.0,311.0,,normal,120.0,,1.8,flat,2,reversable defect,2
+71,female,Cleveland,asymptomatic,112.0,149.0,,normal,125.0,,1.6,flat,0,normal,0
+59,male,Cleveland,typical angina,134.0,204.0,,normal,162.0,,0.8,upsloping,2,normal,1
+64,male,Cleveland,typical angina,170.0,227.0,,lv hypertrophy,155.0,,0.6,flat,0,reversable defect,0
+66,female,Cleveland,non-anginal,146.0,278.0,,lv hypertrophy,152.0,,0.0,flat,1,normal,0
+39,female,Cleveland,non-anginal,138.0,220.0,,normal,152.0,,0.0,flat,0,normal,0
+57,male,Cleveland,atypical angina,154.0,232.0,,lv hypertrophy,164.0,,0.0,upsloping,1,normal,1
+58,female,Cleveland,asymptomatic,130.0,197.0,,normal,131.0,,0.6,flat,0,normal,0
+57,male,Cleveland,asymptomatic,110.0,335.0,,normal,143.0,,3.0,flat,1,reversable defect,2
+47,male,Cleveland,non-anginal,130.0,253.0,,normal,179.0,,0.0,upsloping,0,normal,0
+55,female,Cleveland,asymptomatic,128.0,205.0,,st-t abnormality,130.0,,2.0,flat,1,reversable defect,3
+35,male,Cleveland,atypical angina,122.0,192.0,,normal,174.0,,0.0,upsloping,0,normal,0
+61,male,Cleveland,asymptomatic,148.0,203.0,,normal,161.0,,0.0,upsloping,1,reversable defect,2
+58,male,Cleveland,asymptomatic,114.0,318.0,,st-t abnormality,140.0,,4.4,downsloping,3,fixed defect,4
+58,female,Cleveland,asymptomatic,170.0,225.0,,lv hypertrophy,146.0,,2.8,flat,2,fixed defect,2
+58,male,Cleveland,atypical angina,125.0,220.0,,normal,144.0,,0.4,flat,-1,reversable defect,0
+56,male,Cleveland,atypical angina,130.0,221.0,,lv hypertrophy,163.0,,0.0,upsloping,0,reversable defect,0
+56,male,Cleveland,atypical angina,120.0,240.0,,normal,169.0,,0.0,downsloping,0,normal,0
+67,male,Cleveland,non-anginal,152.0,212.0,,lv hypertrophy,150.0,,0.8,flat,0,reversable defect,1
+55,female,Cleveland,atypical angina,132.0,342.0,,normal,166.0,,1.2,upsloping,0,normal,0
+44,male,Cleveland,asymptomatic,120.0,169.0,,normal,144.0,,2.8,downsloping,0,fixed defect,2
+63,male,Cleveland,asymptomatic,140.0,187.0,,lv hypertrophy,144.0,,4.0,upsloping,2,reversable defect,2
+63,female,Cleveland,asymptomatic,124.0,197.0,,normal,136.0,,0.0,flat,0,normal,1
+41,male,Cleveland,atypical angina,120.0,157.0,,normal,182.0,,0.0,upsloping,0,normal,0
+59,male,Cleveland,asymptomatic,164.0,176.0,,lv hypertrophy,90.0,,1.0,flat,2,fixed defect,3
+57,female,Cleveland,asymptomatic,140.0,241.0,,normal,123.0,,0.2,flat,0,reversable defect,1
+45,male,Cleveland,typical angina,110.0,264.0,,normal,132.0,,1.2,flat,0,reversable defect,1
+68,male,Cleveland,asymptomatic,144.0,193.0,,normal,141.0,,3.4,flat,2,reversable defect,2
+57,male,Cleveland,asymptomatic,130.0,131.0,,normal,115.0,,1.2,flat,1,reversable defect,3
+57,female,Cleveland,atypical angina,130.0,236.0,,lv hypertrophy,174.0,,0.0,flat,1,normal,1
+38,male,Cleveland,non-anginal,138.0,175.0,,normal,173.0,,0.0,upsloping,-1,normal,0
+28,male,Cleveland,atypical angina,130.0,132.0,,lv hypertrophy,185.0,,0.0,flat,-1,normal,0
+29,male,Hungary,atypical angina,120.0,243.0,,normal,160.0,,0.0,flat,-1,normal,0
+29,male,Hungary,atypical angina,140.0,223.0,,normal,170.0,,0.0,flat,-1,normal,0
+30,female,Hungary,typical angina,170.0,237.0,,st-t abnormality,170.0,,0.0,flat,-1,fixed defect,0
+31,female,Hungary,atypical angina,100.0,219.0,,st-t abnormality,150.0,,0.0,flat,-1,normal,0
+32,female,Hungary,atypical angina,105.0,198.0,,normal,165.0,,0.0,flat,-1,normal,0
+32,male,Hungary,atypical angina,110.0,225.0,,normal,184.0,,0.0,flat,-1,normal,0
+32,male,Hungary,atypical angina,125.0,254.0,,normal,155.0,,0.0,flat,-1,normal,0
+33,male,Hungary,non-anginal,120.0,298.0,,normal,185.0,,0.0,flat,-1,normal,0
+34,female,Hungary,atypical angina,130.0,161.0,,normal,190.0,,0.0,flat,-1,normal,0
+34,male,Hungary,atypical angina,150.0,214.0,,st-t abnormality,168.0,,0.0,flat,-1,normal,0
+34,male,Hungary,atypical angina,98.0,220.0,,normal,150.0,,0.0,flat,-1,normal,0
+35,female,Hungary,typical angina,120.0,160.0,,st-t abnormality,185.0,,0.0,flat,-1,normal,0
+35,female,Hungary,asymptomatic,140.0,167.0,,normal,150.0,,0.0,flat,-1,normal,0
+35,male,Hungary,atypical angina,120.0,308.0,,lv hypertrophy,180.0,,0.0,flat,-1,normal,0
+35,male,Hungary,atypical angina,150.0,264.0,,normal,168.0,,0.0,flat,-1,normal,0
+36,male,Hungary,atypical angina,120.0,166.0,,normal,180.0,,0.0,flat,-1,normal,0
+36,male,Hungary,non-anginal,112.0,340.0,,normal,184.0,,1.0,flat,-1,normal,0
+36,male,Hungary,non-anginal,130.0,209.0,,normal,178.0,,0.0,flat,-1,normal,0
+36,male,Hungary,non-anginal,150.0,160.0,,normal,172.0,,0.0,flat,-1,normal,0
+37,female,Hungary,atypical angina,120.0,260.0,,normal,130.0,,0.0,flat,-1,normal,0
+37,female,Hungary,non-anginal,130.0,211.0,,normal,142.0,,0.0,flat,-1,normal,0
+37,female,Hungary,asymptomatic,130.0,173.0,,st-t abnormality,184.0,,0.0,flat,-1,normal,0
+37,male,Hungary,atypical angina,130.0,283.0,,st-t abnormality,98.0,,0.0,flat,-1,normal,0
+37,male,Hungary,non-anginal,130.0,194.0,,normal,150.0,,0.0,flat,-1,normal,0
+37,male,Hungary,asymptomatic,120.0,223.0,,normal,168.0,,0.0,flat,-1,normal,0
+37,male,Hungary,asymptomatic,130.0,315.0,,normal,158.0,,0.0,flat,-1,normal,0
+38,female,Hungary,atypical angina,120.0,275.0,,normal,129.0,,0.0,flat,-1,normal,0
+38,male,Hungary,atypical angina,140.0,297.0,,normal,150.0,,0.0,flat,-1,normal,0
+38,male,Hungary,non-anginal,145.0,292.0,,normal,130.0,,0.0,flat,-1,normal,0
+39,female,Hungary,non-anginal,110.0,182.0,,st-t abnormality,180.0,,0.0,flat,-1,normal,0
+39,male,Hungary,atypical angina,120.0,223.0,,st-t abnormality,146.0,,2.0,upsloping,-1,normal,0
+39,male,Hungary,atypical angina,120.0,200.0,,normal,160.0,,1.0,flat,-1,normal,0
+39,male,Hungary,atypical angina,120.0,204.0,,normal,145.0,,0.0,flat,-1,normal,0
+39,male,Hungary,atypical angina,130.0,223.0,,normal,120.0,,0.0,flat,-1,normal,0
+39,male,Hungary,atypical angina,190.0,241.0,,normal,106.0,,0.0,flat,-1,normal,0
+39,male,Hungary,non-anginal,120.0,339.0,,normal,170.0,,0.0,flat,-1,normal,0
+39,male,Hungary,non-anginal,160.0,147.0,,normal,160.0,,0.0,flat,-1,normal,0
+39,male,Hungary,asymptomatic,110.0,273.0,,normal,132.0,,0.0,flat,-1,normal,0
+39,male,Hungary,asymptomatic,130.0,307.0,,normal,140.0,,0.0,flat,-1,normal,0
+40,male,Hungary,atypical angina,130.0,275.0,,normal,150.0,,0.0,flat,-1,normal,0
+40,male,Hungary,atypical angina,140.0,289.0,,normal,172.0,,0.0,flat,-1,normal,0
+40,male,Hungary,non-anginal,130.0,215.0,,normal,138.0,,0.0,flat,-1,normal,0
+40,male,Hungary,non-anginal,130.0,281.0,,normal,167.0,,0.0,flat,-1,normal,0
+40,male,Hungary,non-anginal,140.0,223.0,,normal,188.0,,0.0,flat,-1,normal,0
+41,female,Hungary,atypical angina,110.0,250.0,,st-t abnormality,142.0,,0.0,flat,-1,normal,0
+41,female,Hungary,atypical angina,125.0,184.0,,normal,180.0,,0.0,flat,-1,normal,0
+41,female,Hungary,atypical angina,130.0,245.0,,normal,150.0,,0.0,flat,-1,normal,0
+41,male,Hungary,atypical angina,120.0,291.0,,st-t abnormality,160.0,,0.0,flat,-1,normal,0
+41,male,Hungary,atypical angina,120.0,295.0,,normal,170.0,,0.0,flat,-1,normal,0
+41,male,Hungary,atypical angina,125.0,269.0,,normal,144.0,,0.0,flat,-1,normal,0
+41,male,Hungary,asymptomatic,112.0,250.0,,normal,142.0,,0.0,flat,-1,normal,0
+42,female,Hungary,non-anginal,115.0,211.0,,st-t abnormality,137.0,,0.0,flat,-1,normal,0
+42,male,Hungary,atypical angina,120.0,196.0,,normal,150.0,,0.0,flat,-1,normal,0
+42,male,Hungary,atypical angina,120.0,198.0,,normal,155.0,,0.0,flat,-1,normal,0
+42,male,Hungary,atypical angina,150.0,268.0,,normal,136.0,,0.0,flat,-1,normal,0
+42,male,Hungary,non-anginal,120.0,228.0,,normal,152.0,,1.5,flat,-1,normal,0
+42,male,Hungary,non-anginal,160.0,147.0,,normal,146.0,,0.0,flat,-1,normal,0
+42,male,Hungary,asymptomatic,140.0,358.0,,normal,170.0,,0.0,flat,-1,normal,0
+43,female,Hungary,typical angina,100.0,223.0,,normal,142.0,,0.0,flat,-1,normal,0
+43,female,Hungary,atypical angina,120.0,201.0,,normal,165.0,,0.0,flat,-1,normal,0
+43,female,Hungary,atypical angina,120.0,215.0,,st-t abnormality,175.0,,0.0,flat,-1,normal,0
+43,female,Hungary,atypical angina,120.0,249.0,,st-t abnormality,176.0,,0.0,flat,-1,normal,0
+43,female,Hungary,atypical angina,120.0,266.0,,normal,118.0,,0.0,flat,-1,normal,0
+43,female,Hungary,atypical angina,150.0,186.0,,normal,154.0,,0.0,flat,-1,normal,0
+43,female,Hungary,non-anginal,150.0,223.0,,normal,175.0,,0.0,flat,-1,normal,0
+43,male,Hungary,atypical angina,142.0,207.0,,normal,138.0,,0.0,flat,-1,normal,0
+44,female,Hungary,asymptomatic,120.0,218.0,,st-t abnormality,115.0,,0.0,flat,-1,normal,0
+44,male,Hungary,atypical angina,120.0,184.0,,normal,142.0,,1.0,flat,-1,normal,0
+44,male,Hungary,atypical angina,130.0,215.0,,normal,135.0,,0.0,flat,-1,normal,0
+44,male,Hungary,asymptomatic,150.0,412.0,,normal,170.0,,0.0,flat,-1,normal,0
+45,female,Hungary,atypical angina,130.0,237.0,,normal,170.0,,0.0,flat,-1,normal,0
+45,female,Hungary,atypical angina,180.0,223.0,,normal,180.0,,0.0,flat,-1,normal,0
+45,female,Hungary,asymptomatic,132.0,297.0,,normal,144.0,,0.0,flat,-1,normal,0
+45,male,Hungary,atypical angina,140.0,224.0,,normal,122.0,,0.0,flat,-1,normal,0
+45,male,Hungary,non-anginal,135.0,223.0,,normal,110.0,,0.0,flat,-1,normal,0
+45,male,Hungary,asymptomatic,120.0,225.0,,normal,140.0,,0.0,flat,-1,normal,0
+45,male,Hungary,asymptomatic,140.0,224.0,,normal,144.0,,0.0,flat,-1,normal,0
+46,female,Hungary,asymptomatic,130.0,238.0,,normal,90.0,,0.0,flat,-1,normal,0
+46,male,Hungary,atypical angina,140.0,275.0,,normal,165.0,,0.0,flat,-1,normal,0
+46,male,Hungary,non-anginal,120.0,230.0,,normal,150.0,,0.0,flat,-1,normal,0
+46,male,Hungary,non-anginal,150.0,163.0,,normal,116.0,,0.0,flat,-1,normal,0
+46,male,Hungary,asymptomatic,110.0,238.0,,st-t abnormality,140.0,,1.0,flat,-1,normal,0
+46,male,Hungary,asymptomatic,110.0,240.0,,st-t abnormality,140.0,,0.0,flat,-1,normal,0
+46,male,Hungary,asymptomatic,180.0,280.0,,st-t abnormality,120.0,,0.0,flat,-1,normal,0
+47,female,Hungary,atypical angina,140.0,257.0,,normal,135.0,,1.0,upsloping,-1,normal,0
+47,female,Hungary,non-anginal,130.0,223.0,,normal,145.0,,2.0,flat,-1,normal,0
+47,male,Hungary,typical angina,110.0,249.0,,normal,150.0,,0.0,flat,-1,normal,0
+47,male,Hungary,atypical angina,160.0,263.0,,normal,174.0,,0.0,flat,-1,normal,0
+47,male,Hungary,asymptomatic,140.0,276.0,,normal,125.0,,0.0,flat,-1,normal,0
+48,female,Hungary,atypical angina,130.0,308.0,,st-t abnormality,140.0,,2.0,upsloping,-1,normal,0
+48,female,Hungary,atypical angina,120.0,223.0,,st-t abnormality,148.0,,0.0,flat,-1,normal,0
+48,female,Hungary,atypical angina,120.0,284.0,,normal,120.0,,0.0,flat,-1,normal,0
+48,female,Hungary,non-anginal,120.0,195.0,,normal,125.0,,0.0,flat,-1,normal,0
+48,female,Hungary,asymptomatic,108.0,163.0,,normal,175.0,,2.0,upsloping,-1,normal,0
+48,female,Hungary,asymptomatic,120.0,254.0,,st-t abnormality,110.0,,0.0,flat,-1,normal,0
+48,female,Hungary,asymptomatic,150.0,227.0,,normal,130.0,,1.0,flat,-1,normal,0
+48,male,Hungary,atypical angina,100.0,223.0,,normal,100.0,,0.0,flat,-1,normal,0
+48,male,Hungary,atypical angina,130.0,245.0,,normal,160.0,,0.0,flat,-1,normal,0
+48,male,Hungary,atypical angina,140.0,238.0,,normal,118.0,,0.0,flat,-1,normal,0
+48,male,Hungary,non-anginal,110.0,211.0,,normal,138.0,,0.0,flat,-1,fixed defect,0
+49,female,Hungary,atypical angina,110.0,223.0,,normal,160.0,,0.0,flat,-1,normal,0
+49,female,Hungary,atypical angina,110.0,223.0,,normal,160.0,,0.0,flat,-1,normal,0
+49,female,Hungary,atypical angina,124.0,201.0,,normal,164.0,,0.0,flat,-1,normal,0
+49,female,Hungary,non-anginal,130.0,207.0,,st-t abnormality,135.0,,0.0,flat,-1,normal,0
+49,male,Hungary,atypical angina,100.0,253.0,,normal,174.0,,0.0,flat,-1,normal,0
+49,male,Hungary,non-anginal,140.0,187.0,,normal,172.0,,0.0,flat,-1,normal,0
+49,male,Hungary,asymptomatic,120.0,297.0,,normal,132.0,,1.0,flat,-1,normal,0
+49,male,Hungary,asymptomatic,140.0,223.0,,normal,130.0,,0.0,flat,-1,normal,0
+50,female,Hungary,atypical angina,110.0,202.0,,normal,145.0,,0.0,flat,-1,normal,0
+50,female,Hungary,asymptomatic,120.0,328.0,,normal,110.0,,1.0,flat,-1,normal,0
+50,male,Hungary,atypical angina,120.0,168.0,,normal,160.0,,0.0,flat,0,normal,0
+50,male,Hungary,atypical angina,140.0,216.0,,normal,170.0,,0.0,flat,-1,normal,0
+50,male,Hungary,atypical angina,170.0,209.0,,st-t abnormality,116.0,,0.0,flat,-1,normal,0
+50,male,Hungary,asymptomatic,140.0,129.0,,normal,135.0,,0.0,flat,-1,normal,0
+50,male,Hungary,asymptomatic,150.0,215.0,,normal,140.0,,0.0,flat,-1,normal,0
+51,female,Hungary,atypical angina,160.0,194.0,,normal,170.0,,0.0,flat,-1,normal,0
+51,female,Hungary,non-anginal,110.0,190.0,,normal,120.0,,0.0,flat,-1,normal,0
+51,female,Hungary,non-anginal,130.0,220.0,,normal,160.0,,2.0,upsloping,-1,normal,0
+51,female,Hungary,non-anginal,150.0,200.0,,normal,120.0,,0.5,upsloping,-1,normal,0
+51,male,Hungary,atypical angina,125.0,188.0,,normal,145.0,,0.0,flat,-1,normal,0
+51,male,Hungary,atypical angina,130.0,224.0,,normal,150.0,,0.0,flat,-1,normal,0
+51,male,Hungary,asymptomatic,130.0,179.0,,normal,100.0,,0.0,flat,-1,reversable defect,0
+52,female,Hungary,atypical angina,120.0,210.0,,normal,148.0,,0.0,flat,-1,normal,0
+52,female,Hungary,atypical angina,140.0,223.0,,normal,140.0,,0.0,flat,-1,normal,0
+52,female,Hungary,non-anginal,125.0,272.0,,normal,139.0,,0.0,flat,-1,normal,0
+52,female,Hungary,asymptomatic,130.0,180.0,,normal,140.0,,1.5,flat,-1,normal,0
+52,male,Hungary,atypical angina,120.0,284.0,,normal,118.0,,0.0,flat,-1,normal,0
+52,male,Hungary,atypical angina,140.0,100.0,,normal,138.0,,0.0,flat,-1,normal,0
+52,male,Hungary,atypical angina,160.0,196.0,,normal,165.0,,0.0,flat,-1,normal,0
+52,male,Hungary,non-anginal,140.0,259.0,,st-t abnormality,170.0,,0.0,flat,-1,normal,0
+53,female,Hungary,atypical angina,113.0,468.0,,normal,127.0,,0.0,flat,-1,normal,0
+53,female,Hungary,atypical angina,140.0,216.0,,normal,142.0,,2.0,flat,-1,normal,0
+53,female,Hungary,non-anginal,120.0,274.0,,normal,130.0,,0.0,flat,-1,normal,0
+53,male,Hungary,atypical angina,120.0,223.0,,normal,132.0,,0.0,flat,-1,normal,0
+53,male,Hungary,atypical angina,140.0,320.0,,normal,162.0,,0.0,flat,-1,normal,0
+53,male,Hungary,non-anginal,120.0,195.0,,normal,140.0,,0.0,flat,-1,normal,0
+53,male,Hungary,asymptomatic,124.0,260.0,,st-t abnormality,112.0,,3.0,flat,-1,normal,0
+53,male,Hungary,asymptomatic,130.0,182.0,,normal,148.0,,0.0,flat,-1,normal,0
+53,male,Hungary,asymptomatic,140.0,243.0,,normal,155.0,,0.0,flat,-1,normal,0
+54,female,Hungary,atypical angina,120.0,221.0,,normal,138.0,,1.0,upsloping,-1,normal,0
+54,female,Hungary,atypical angina,120.0,230.0,,normal,140.0,,0.0,flat,-1,normal,0
+54,female,Hungary,atypical angina,120.0,273.0,,normal,150.0,,1.5,flat,-1,normal,0
+54,female,Hungary,atypical angina,130.0,253.0,,st-t abnormality,155.0,,0.0,flat,-1,normal,0
+54,female,Hungary,atypical angina,140.0,309.0,,st-t abnormality,140.0,,0.0,flat,-1,normal,0
+54,female,Hungary,atypical angina,150.0,230.0,,normal,130.0,,0.0,flat,-1,normal,0
+54,female,Hungary,atypical angina,160.0,312.0,,normal,130.0,,0.0,flat,-1,normal,0
+54,male,Hungary,typical angina,120.0,171.0,,normal,137.0,,2.0,upsloping,-1,normal,0
+54,male,Hungary,atypical angina,110.0,208.0,,normal,142.0,,0.0,flat,-1,normal,0
+54,male,Hungary,atypical angina,120.0,238.0,,normal,154.0,,0.0,flat,-1,normal,0
+54,male,Hungary,atypical angina,120.0,246.0,,normal,110.0,,0.0,flat,-1,normal,0
+54,male,Hungary,atypical angina,160.0,195.0,,st-t abnormality,130.0,,1.0,upsloping,-1,normal,0
+54,male,Hungary,atypical angina,160.0,305.0,,normal,175.0,,0.0,flat,-1,normal,0
+54,male,Hungary,non-anginal,120.0,217.0,,normal,137.0,,0.0,flat,-1,normal,0
+54,male,Hungary,non-anginal,150.0,223.0,,normal,122.0,,0.0,flat,-1,normal,0
+54,male,Hungary,asymptomatic,150.0,365.0,,st-t abnormality,134.0,,1.0,upsloping,-1,normal,0
+55,female,Hungary,atypical angina,110.0,344.0,,st-t abnormality,160.0,,0.0,flat,-1,normal,0
+55,female,Hungary,atypical angina,122.0,320.0,,normal,155.0,,0.0,flat,-1,normal,0
+55,female,Hungary,atypical angina,130.0,394.0,,lv hypertrophy,150.0,,0.0,flat,-1,normal,0
+55,male,Hungary,atypical angina,120.0,256.0,,normal,137.0,,0.0,flat,-1,reversable defect,0
+55,male,Hungary,atypical angina,140.0,196.0,,normal,150.0,,0.0,flat,-1,reversable defect,0
+55,male,Hungary,atypical angina,145.0,326.0,,normal,155.0,,0.0,flat,-1,normal,0
+55,male,Hungary,non-anginal,110.0,277.0,,normal,160.0,,0.0,flat,-1,normal,0
+55,male,Hungary,non-anginal,120.0,220.0,,lv hypertrophy,134.0,,0.0,flat,-1,normal,0
+55,male,Hungary,asymptomatic,120.0,270.0,,normal,140.0,,0.0,flat,-1,normal,0
+55,male,Hungary,asymptomatic,140.0,229.0,,normal,110.0,,0.5,flat,-1,normal,0
+56,female,Hungary,non-anginal,130.0,219.0,,st-t abnormality,164.0,,0.0,flat,-1,reversable defect,0
+56,male,Hungary,atypical angina,130.0,184.0,,normal,100.0,,0.0,flat,-1,normal,0
+56,male,Hungary,non-anginal,130.0,223.0,,normal,114.0,,0.0,flat,-1,normal,0
+56,male,Hungary,non-anginal,130.0,276.0,,normal,128.0,,1.0,upsloping,-1,fixed defect,0
+56,male,Hungary,asymptomatic,120.0,85.0,,normal,140.0,,0.0,flat,-1,normal,0
+57,female,Hungary,typical angina,130.0,308.0,,normal,98.0,,1.0,flat,-1,normal,0
+57,female,Hungary,asymptomatic,180.0,347.0,,st-t abnormality,126.0,,0.8,flat,-1,normal,0
+57,male,Hungary,atypical angina,140.0,260.0,,normal,140.0,,0.0,flat,-1,fixed defect,0
+58,male,Hungary,atypical angina,130.0,230.0,,normal,150.0,,0.0,flat,-1,normal,0
+58,male,Hungary,atypical angina,130.0,251.0,,normal,110.0,,0.0,flat,-1,normal,0
+58,male,Hungary,non-anginal,140.0,179.0,,normal,160.0,,0.0,flat,-1,normal,0
+58,male,Hungary,asymptomatic,135.0,222.0,,normal,100.0,,0.0,flat,-1,normal,0
+59,female,Hungary,atypical angina,130.0,188.0,,normal,124.0,,1.0,flat,-1,normal,0
+59,male,Hungary,atypical angina,140.0,287.0,,normal,150.0,,0.0,flat,-1,normal,0
+59,male,Hungary,non-anginal,130.0,318.0,,normal,120.0,,1.0,flat,-1,normal,0
+59,male,Hungary,non-anginal,180.0,213.0,,normal,100.0,,0.0,flat,-1,normal,0
+59,male,Hungary,asymptomatic,140.0,223.0,,normal,140.0,,0.0,flat,0,normal,0
+60,male,Hungary,non-anginal,120.0,246.0,,lv hypertrophy,135.0,,0.0,flat,-1,normal,0
+61,female,Hungary,asymptomatic,130.0,294.0,,st-t abnormality,120.0,,1.0,flat,-1,normal,0
+61,male,Hungary,asymptomatic,125.0,292.0,,st-t abnormality,115.0,,0.0,flat,-1,normal,0
+62,female,Hungary,typical angina,160.0,193.0,,normal,116.0,,0.0,flat,-1,normal,0
+62,male,Hungary,atypical angina,140.0,271.0,,normal,152.0,,1.0,upsloping,-1,normal,0
+31,male,Hungary,asymptomatic,120.0,270.0,,normal,153.0,,1.5,flat,-1,normal,1
+33,female,Hungary,asymptomatic,100.0,246.0,,normal,150.0,,1.0,flat,-1,normal,1
+34,male,Hungary,typical angina,140.0,156.0,,normal,180.0,,0.0,flat,-1,normal,1
+35,male,Hungary,atypical angina,110.0,257.0,,normal,140.0,,0.0,flat,-1,normal,1
+36,male,Hungary,atypical angina,120.0,267.0,,normal,160.0,,3.0,flat,-1,normal,1
+37,male,Hungary,asymptomatic,140.0,207.0,,normal,130.0,,1.5,flat,-1,normal,1
+38,male,Hungary,asymptomatic,110.0,196.0,,normal,166.0,,0.0,flat,-1,normal,1
+38,male,Hungary,asymptomatic,120.0,282.0,,normal,170.0,,0.0,flat,-1,normal,1
+38,male,Hungary,asymptomatic,92.0,117.0,,normal,134.0,,2.5,flat,-1,normal,1
+40,male,Hungary,asymptomatic,120.0,466.0,,normal,152.0,,1.0,flat,-1,fixed defect,1
+41,male,Hungary,asymptomatic,110.0,289.0,,normal,170.0,,0.0,flat,-1,fixed defect,1
+41,male,Hungary,asymptomatic,120.0,237.0,,normal,138.0,,1.0,flat,-1,normal,1
+43,male,Hungary,asymptomatic,150.0,247.0,,normal,130.0,,2.0,flat,-1,normal,1
+46,male,Hungary,asymptomatic,110.0,202.0,,normal,150.0,,0.0,flat,-1,normal,1
+46,male,Hungary,asymptomatic,118.0,186.0,,normal,124.0,,0.0,flat,-1,reversable defect,1
+46,male,Hungary,asymptomatic,120.0,277.0,,normal,125.0,,1.0,flat,-1,normal,1
+47,male,Hungary,non-anginal,140.0,193.0,,normal,145.0,,1.0,flat,-1,normal,1
+47,male,Hungary,asymptomatic,150.0,226.0,,normal,98.0,,1.5,flat,0,reversable defect,1
+48,male,Hungary,asymptomatic,106.0,263.0,,normal,110.0,,0.0,flat,-1,normal,1
+48,male,Hungary,asymptomatic,120.0,260.0,,normal,115.0,,2.0,flat,-1,normal,1
+48,male,Hungary,asymptomatic,160.0,268.0,,normal,103.0,,1.0,flat,-1,normal,1
+49,female,Hungary,non-anginal,160.0,180.0,,normal,156.0,,1.0,flat,-1,normal,1
+49,male,Hungary,non-anginal,115.0,265.0,,normal,175.0,,0.0,flat,-1,normal,1
+49,male,Hungary,asymptomatic,130.0,206.0,,normal,170.0,,0.0,flat,-1,normal,1
+50,female,Hungary,non-anginal,140.0,288.0,,normal,140.0,,0.0,flat,-1,reversable defect,1
+50,male,Hungary,asymptomatic,145.0,264.0,,normal,150.0,,0.0,flat,-1,normal,1
+51,female,Hungary,asymptomatic,160.0,303.0,,normal,150.0,,1.0,flat,-1,normal,1
+52,male,Hungary,asymptomatic,130.0,225.0,,normal,120.0,,2.0,flat,-1,normal,1
+54,male,Hungary,asymptomatic,125.0,216.0,,normal,140.0,,0.0,flat,-1,normal,1
+54,male,Hungary,asymptomatic,125.0,224.0,,normal,122.0,,2.0,flat,-1,normal,1
+55,male,Hungary,asymptomatic,140.0,201.0,,normal,130.0,,3.0,flat,-1,normal,1
+57,male,Hungary,atypical angina,140.0,265.0,,st-t abnormality,145.0,,1.0,flat,-1,normal,1
+58,male,Hungary,non-anginal,130.0,213.0,,st-t abnormality,140.0,,0.0,flat,-1,fixed defect,1
+59,female,Hungary,asymptomatic,130.0,338.0,,st-t abnormality,130.0,,1.5,flat,-1,normal,1
+60,male,Hungary,asymptomatic,100.0,248.0,,normal,125.0,,1.0,flat,-1,normal,1
+63,male,Hungary,asymptomatic,150.0,223.0,,normal,115.0,,0.0,flat,-1,normal,1
+65,male,Hungary,asymptomatic,140.0,306.0,,normal,87.0,,1.5,flat,-1,normal,1
+32,male,Hungary,asymptomatic,118.0,529.0,,normal,130.0,,0.0,flat,-1,normal,1
+38,male,Hungary,asymptomatic,110.0,223.0,,normal,150.0,,1.0,flat,-1,normal,1
+39,male,Hungary,asymptomatic,110.0,280.0,,normal,150.0,,0.0,flat,-1,fixed defect,1
+40,female,Hungary,asymptomatic,150.0,392.0,,normal,130.0,,2.0,flat,-1,fixed defect,1
+43,male,Hungary,typical angina,120.0,291.0,,st-t abnormality,155.0,,0.0,flat,-1,normal,1
+45,male,Hungary,asymptomatic,130.0,219.0,,st-t abnormality,130.0,,1.0,flat,-1,normal,1
+46,male,Hungary,asymptomatic,120.0,231.0,,normal,115.0,,0.0,flat,-1,normal,1
+46,male,Hungary,asymptomatic,130.0,222.0,,normal,112.0,,0.0,flat,-1,normal,1
+48,male,Hungary,asymptomatic,122.0,275.0,,st-t abnormality,150.0,,2.0,downsloping,-1,normal,1
+48,male,Hungary,asymptomatic,160.0,193.0,,normal,102.0,,3.0,flat,-1,normal,1
+48,male,Hungary,asymptomatic,160.0,329.0,,normal,92.0,,1.5,flat,-1,normal,1
+48,male,Hungary,asymptomatic,160.0,355.0,,normal,99.0,,2.0,flat,-1,normal,1
+50,male,Hungary,asymptomatic,130.0,233.0,,normal,121.0,,2.0,flat,-1,reversable defect,1
+52,male,Hungary,asymptomatic,120.0,182.0,,normal,150.0,,0.0,flat,-1,normal,1
+52,male,Hungary,asymptomatic,170.0,223.0,,normal,126.0,,1.5,flat,-1,normal,1
+53,male,Hungary,asymptomatic,120.0,246.0,,normal,116.0,,0.0,flat,-1,normal,1
+54,male,Hungary,non-anginal,120.0,237.0,,normal,150.0,,1.5,flat,-1,reversable defect,1
+54,male,Hungary,asymptomatic,130.0,242.0,,normal,91.0,,1.0,flat,-1,normal,1
+54,male,Hungary,asymptomatic,130.0,603.0,,normal,125.0,,1.0,flat,-1,normal,1
+54,male,Hungary,asymptomatic,140.0,223.0,,normal,118.0,,0.0,flat,-1,normal,1
+54,male,Hungary,asymptomatic,200.0,198.0,,normal,142.0,,2.0,flat,-1,normal,1
+55,male,Hungary,asymptomatic,140.0,268.0,,normal,128.0,,1.5,flat,-1,normal,1
+56,male,Hungary,asymptomatic,150.0,213.0,,normal,125.0,,1.0,flat,-1,normal,1
+57,male,Hungary,asymptomatic,150.0,255.0,,normal,92.0,,3.0,flat,-1,normal,1
+58,male,Hungary,non-anginal,160.0,211.0,,st-t abnormality,92.0,,0.0,flat,-1,normal,1
+58,male,Hungary,asymptomatic,130.0,263.0,,normal,140.0,,2.0,flat,-1,normal,1
+41,male,Hungary,asymptomatic,130.0,172.0,,st-t abnormality,130.0,,2.0,flat,-1,normal,1
+43,male,Hungary,asymptomatic,120.0,175.0,,normal,120.0,,1.0,flat,-1,reversable defect,1
+44,male,Hungary,atypical angina,150.0,288.0,,normal,150.0,,3.0,flat,-1,normal,1
+44,male,Hungary,asymptomatic,130.0,290.0,,normal,100.0,,2.0,flat,-1,normal,1
+46,male,Hungary,typical angina,140.0,272.0,,normal,175.0,,2.0,flat,-1,normal,1
+47,female,Hungary,non-anginal,135.0,248.0,,normal,170.0,,0.0,flat,-1,normal,1
+48,female,Hungary,asymptomatic,138.0,214.0,,normal,108.0,,1.5,flat,-1,normal,1
+49,male,Hungary,asymptomatic,130.0,341.0,,normal,120.0,,1.0,flat,-1,normal,1
+49,male,Hungary,asymptomatic,140.0,234.0,,normal,140.0,,1.0,flat,-1,normal,1
+51,male,Hungary,non-anginal,135.0,160.0,,normal,150.0,,2.0,flat,-1,normal,1
+52,male,Hungary,asymptomatic,112.0,342.0,,st-t abnormality,96.0,,1.0,flat,-1,normal,1
+52,male,Hungary,asymptomatic,130.0,298.0,,normal,110.0,,1.0,flat,-1,normal,1
+52,male,Hungary,asymptomatic,140.0,404.0,,normal,124.0,,2.0,flat,-1,normal,1
+52,male,Hungary,asymptomatic,160.0,246.0,,st-t abnormality,82.0,,4.0,flat,-1,normal,1
+53,male,Hungary,non-anginal,145.0,518.0,,normal,130.0,,0.0,flat,-1,normal,1
+53,male,Hungary,asymptomatic,180.0,285.0,,st-t abnormality,120.0,,1.5,flat,-1,normal,1
+54,male,Hungary,asymptomatic,140.0,216.0,,normal,105.0,,1.5,flat,-1,normal,1
+55,male,Hungary,typical angina,140.0,295.0,,normal,136.0,,0.0,flat,-1,normal,1
+55,male,Hungary,atypical angina,160.0,292.0,,normal,143.0,,2.0,flat,-1,normal,1
+55,male,Hungary,asymptomatic,145.0,248.0,,normal,96.0,,2.0,flat,-1,normal,1
+56,female,Hungary,atypical angina,120.0,279.0,,normal,150.0,,1.0,flat,-1,normal,1
+56,male,Hungary,asymptomatic,150.0,230.0,,st-t abnormality,124.0,,1.5,flat,-1,normal,1
+56,male,Hungary,asymptomatic,170.0,388.0,,st-t abnormality,122.0,,2.0,flat,-1,normal,1
+58,male,Hungary,atypical angina,136.0,164.0,,st-t abnormality,99.0,,2.0,flat,-1,normal,1
+59,male,Hungary,asymptomatic,130.0,223.0,,normal,125.0,,0.0,flat,-1,normal,1
+59,male,Hungary,asymptomatic,140.0,264.0,,lv hypertrophy,119.0,,0.0,flat,-1,normal,1
+65,male,Hungary,asymptomatic,170.0,263.0,,normal,112.0,,2.0,flat,-1,normal,1
+66,male,Hungary,asymptomatic,140.0,223.0,,normal,94.0,,1.0,flat,-1,normal,1
+41,male,Hungary,asymptomatic,120.0,336.0,,normal,118.0,,3.0,flat,-1,normal,1
+43,male,Hungary,asymptomatic,140.0,288.0,,normal,135.0,,2.0,flat,-1,normal,1
+44,male,Hungary,asymptomatic,135.0,491.0,,normal,135.0,,0.0,flat,-1,normal,1
+47,female,Hungary,asymptomatic,120.0,205.0,,normal,98.0,,2.0,flat,-1,fixed defect,1
+47,male,Hungary,asymptomatic,160.0,291.0,,st-t abnormality,158.0,,3.0,flat,-1,normal,1
+49,male,Hungary,asymptomatic,128.0,212.0,,normal,96.0,,0.0,flat,-1,normal,1
+49,male,Hungary,asymptomatic,150.0,222.0,,normal,122.0,,2.0,flat,-1,normal,1
+50,male,Hungary,asymptomatic,140.0,231.0,,st-t abnormality,140.0,,5.0,flat,-1,normal,1
+50,male,Hungary,asymptomatic,140.0,341.0,,st-t abnormality,125.0,,2.5,flat,-1,normal,1
+52,male,Hungary,asymptomatic,140.0,266.0,,normal,134.0,,2.0,flat,-1,normal,1
+52,male,Hungary,asymptomatic,160.0,331.0,,normal,94.0,,2.5,flat,-1,normal,1
+54,female,Hungary,non-anginal,130.0,294.0,,st-t abnormality,100.0,,0.0,flat,-1,normal,1
+56,male,Hungary,asymptomatic,155.0,342.0,,normal,150.0,,3.0,flat,-1,normal,1
+58,female,Hungary,atypical angina,180.0,393.0,,normal,110.0,,1.0,flat,-1,reversable defect,1
+65,male,Hungary,asymptomatic,130.0,275.0,,st-t abnormality,115.0,,1.0,flat,-1,normal,1
+32,male,Switzerland,typical angina,95.0,0.0,,normal,127.0,,0.7,upsloping,-1,normal,1
+34,male,Switzerland,asymptomatic,115.0,0.0,,normal,154.0,,0.2,upsloping,-1,normal,1
+35,male,Switzerland,asymptomatic,130.0,0.0,,normal,130.0,,0.5,flat,-1,reversable defect,3
+36,male,Switzerland,asymptomatic,110.0,0.0,,normal,125.0,,1.0,flat,-1,fixed defect,1
+38,female,Switzerland,asymptomatic,105.0,0.0,,normal,166.0,,2.8,upsloping,-1,normal,2
+38,female,Switzerland,asymptomatic,110.0,0.0,,normal,156.0,,0.0,flat,-1,normal,1
+38,male,Switzerland,non-anginal,100.0,0.0,,normal,179.0,,-1.1,upsloping,-1,normal,0
+38,male,Switzerland,non-anginal,115.0,0.0,,normal,128.0,,0.0,flat,-1,reversable defect,1
+38,male,Switzerland,asymptomatic,135.0,0.0,,normal,150.0,,0.0,flat,-1,normal,2
+38,male,Switzerland,asymptomatic,150.0,0.0,,normal,120.0,,0.5,flat,-1,normal,1
+40,male,Switzerland,asymptomatic,95.0,0.0,,st-t abnormality,144.0,,0.0,upsloping,-1,normal,2
+41,male,Switzerland,asymptomatic,125.0,0.0,,normal,176.0,,1.6,upsloping,-1,normal,2
+42,male,Switzerland,asymptomatic,105.0,0.0,,normal,128.0,,-1.5,downsloping,-1,normal,1
+42,male,Switzerland,asymptomatic,145.0,0.0,,normal,99.0,,0.0,flat,-1,normal,2
+43,male,Switzerland,asymptomatic,100.0,0.0,,normal,122.0,,1.5,downsloping,-1,normal,3
+43,male,Switzerland,asymptomatic,115.0,0.0,,normal,145.0,,2.0,flat,-1,reversable defect,4
+43,male,Switzerland,asymptomatic,140.0,0.0,,st-t abnormality,140.0,,0.5,upsloping,-1,reversable defect,2
+45,male,Switzerland,non-anginal,110.0,0.0,,normal,138.0,,-0.1,upsloping,-1,normal,0
+46,male,Switzerland,asymptomatic,100.0,0.0,,st-t abnormality,133.0,,-2.6,flat,-1,normal,1
+46,male,Switzerland,asymptomatic,115.0,0.0,,normal,113.0,,1.5,flat,-1,reversable defect,1
+47,male,Switzerland,non-anginal,110.0,0.0,,normal,120.0,,0.0,flat,-1,normal,1
+47,male,Switzerland,non-anginal,155.0,0.0,,normal,118.0,,1.0,flat,-1,normal,3
+47,male,Switzerland,asymptomatic,110.0,0.0,,st-t abnormality,149.0,,2.1,upsloping,-1,normal,2
+47,male,Switzerland,asymptomatic,160.0,0.0,,normal,124.0,,0.0,flat,-1,reversable defect,1
+48,male,Switzerland,asymptomatic,115.0,0.0,,normal,128.0,,0.0,flat,-1,fixed defect,2
+50,female,Switzerland,asymptomatic,160.0,0.0,,normal,110.0,,0.0,flat,-1,normal,1
+50,male,Switzerland,asymptomatic,115.0,0.0,,normal,120.0,,0.5,flat,-1,fixed defect,3
+50,male,Switzerland,asymptomatic,120.0,0.0,,st-t abnormality,156.0,,0.0,upsloping,-1,fixed defect,3
+50,male,Switzerland,asymptomatic,145.0,0.0,,normal,139.0,,0.7,flat,-1,normal,1
+51,female,Switzerland,asymptomatic,120.0,0.0,,normal,127.0,,1.5,upsloping,-1,normal,2
+51,male,Switzerland,asymptomatic,110.0,0.0,,normal,92.0,,0.0,flat,-1,normal,4
+51,male,Switzerland,asymptomatic,120.0,0.0,,normal,104.0,,0.0,flat,-1,normal,3
+51,male,Switzerland,asymptomatic,130.0,0.0,,normal,170.0,,-0.7,upsloping,-1,normal,2
+51,male,Switzerland,asymptomatic,130.0,0.0,,st-t abnormality,163.0,,0.0,flat,-1,reversable defect,1
+51,male,Switzerland,asymptomatic,140.0,0.0,,normal,60.0,,0.0,flat,-1,normal,2
+51,male,Switzerland,asymptomatic,95.0,0.0,,normal,126.0,,2.2,flat,-1,normal,2
+52,male,Switzerland,asymptomatic,130.0,0.0,,normal,120.0,,0.0,flat,-1,reversable defect,2
+52,male,Switzerland,asymptomatic,135.0,0.0,,normal,128.0,,2.0,flat,-1,reversable defect,2
+52,male,Switzerland,asymptomatic,165.0,0.0,,normal,122.0,,1.0,upsloping,-1,reversable defect,2
+52,male,Switzerland,asymptomatic,95.0,0.0,,normal,82.0,,0.5,flat,-1,normal,2
+53,male,Switzerland,atypical angina,120.0,0.0,,normal,95.0,,0.0,flat,-1,normal,3
+53,male,Switzerland,atypical angina,130.0,0.0,,st-t abnormality,120.0,,0.7,downsloping,-1,normal,0
+53,male,Switzerland,non-anginal,105.0,0.0,,normal,115.0,,0.0,flat,-1,reversable defect,1
+53,male,Switzerland,non-anginal,160.0,0.0,,lv hypertrophy,122.0,,0.0,flat,-1,reversable defect,1
+53,male,Switzerland,asymptomatic,120.0,0.0,,normal,120.0,,0.0,flat,-1,reversable defect,1
+53,male,Switzerland,asymptomatic,125.0,0.0,,normal,120.0,,1.5,upsloping,-1,normal,4
+53,male,Switzerland,asymptomatic,130.0,0.0,,lv hypertrophy,135.0,,1.0,flat,-1,reversable defect,2
+53,male,Switzerland,asymptomatic,80.0,0.0,,normal,141.0,,2.0,downsloping,-1,normal,0
+54,male,Switzerland,asymptomatic,120.0,0.0,,normal,155.0,,0.0,flat,-1,reversable defect,2
+54,male,Switzerland,asymptomatic,130.0,0.0,,normal,110.0,,3.0,flat,-1,reversable defect,3
+54,male,Switzerland,asymptomatic,180.0,0.0,,normal,150.0,,1.5,flat,-1,reversable defect,1
+55,male,Switzerland,atypical angina,140.0,0.0,,st-t abnormality,150.0,,0.2,upsloping,-1,normal,0
+55,male,Switzerland,asymptomatic,115.0,0.0,,normal,155.0,,0.1,flat,-1,normal,1
+55,male,Switzerland,asymptomatic,120.0,0.0,,st-t abnormality,92.0,,0.3,upsloping,-1,reversable defect,4
+55,male,Switzerland,asymptomatic,140.0,0.0,,normal,83.0,,0.0,flat,-1,reversable defect,2
+56,male,Switzerland,non-anginal,120.0,0.0,,normal,97.0,,0.0,flat,-1,reversable defect,0
+56,male,Switzerland,non-anginal,125.0,0.0,,normal,98.0,,-2.0,flat,-1,reversable defect,2
+56,male,Switzerland,non-anginal,155.0,0.0,,st-t abnormality,99.0,,0.0,flat,-1,normal,2
+56,male,Switzerland,asymptomatic,115.0,0.0,,st-t abnormality,82.0,,-1.0,upsloping,-1,normal,1
+56,male,Switzerland,asymptomatic,120.0,0.0,,st-t abnormality,100.0,,-1.0,downsloping,-1,reversable defect,2
+56,male,Switzerland,asymptomatic,120.0,0.0,,st-t abnormality,148.0,,0.0,flat,-1,normal,2
+56,male,Switzerland,asymptomatic,125.0,0.0,,normal,103.0,,1.0,flat,-1,reversable defect,3
+56,male,Switzerland,asymptomatic,140.0,0.0,,normal,121.0,,1.8,upsloping,-1,normal,1
+57,male,Switzerland,non-anginal,105.0,0.0,,normal,148.0,,0.3,flat,-1,normal,1
+57,male,Switzerland,asymptomatic,110.0,0.0,,st-t abnormality,131.0,,1.4,upsloping,1,normal,3
+57,male,Switzerland,asymptomatic,140.0,0.0,,normal,120.0,,2.0,flat,-1,fixed defect,2
+57,male,Switzerland,asymptomatic,140.0,0.0,,normal,100.0,,0.0,flat,-1,fixed defect,3
+57,male,Switzerland,asymptomatic,160.0,0.0,,normal,98.0,,2.0,flat,-1,reversable defect,2
+57,male,Switzerland,asymptomatic,95.0,0.0,,normal,182.0,,0.7,downsloping,-1,normal,1
+58,male,Switzerland,asymptomatic,115.0,0.0,,normal,138.0,,0.5,upsloping,-1,normal,1
+58,male,Switzerland,asymptomatic,130.0,0.0,,st-t abnormality,100.0,,1.0,flat,-1,fixed defect,4
+58,male,Switzerland,asymptomatic,170.0,0.0,,st-t abnormality,105.0,,0.0,flat,-1,normal,1
+59,male,Switzerland,non-anginal,125.0,0.0,,normal,175.0,,2.6,flat,-1,normal,1
+59,male,Switzerland,asymptomatic,110.0,0.0,,normal,94.0,,0.0,flat,-1,fixed defect,3
+59,male,Switzerland,asymptomatic,120.0,0.0,,normal,115.0,,0.0,flat,-1,normal,2
+59,male,Switzerland,asymptomatic,125.0,0.0,,normal,119.0,,0.9,upsloping,-1,normal,1
+59,male,Switzerland,asymptomatic,135.0,0.0,,normal,115.0,,1.0,flat,-1,reversable defect,1
+60,male,Switzerland,non-anginal,115.0,0.0,,normal,143.0,,2.4,upsloping,-1,normal,1
+60,male,Switzerland,asymptomatic,125.0,0.0,,normal,110.0,,0.1,upsloping,2,normal,3
+60,male,Switzerland,asymptomatic,130.0,0.0,,st-t abnormality,130.0,,1.1,downsloping,1,normal,1
+60,male,Switzerland,asymptomatic,135.0,0.0,,normal,63.0,,0.5,upsloping,-1,reversable defect,3
+60,male,Switzerland,asymptomatic,160.0,0.0,,st-t abnormality,99.0,,0.5,flat,-1,reversable defect,3
+60,male,Switzerland,asymptomatic,160.0,0.0,,normal,149.0,,0.4,flat,-1,normal,1
+61,male,Switzerland,non-anginal,200.0,0.0,,st-t abnormality,70.0,,0.0,flat,-1,normal,3
+61,male,Switzerland,asymptomatic,105.0,0.0,,normal,110.0,,1.5,upsloping,-1,normal,1
+61,male,Switzerland,asymptomatic,110.0,0.0,,normal,113.0,,1.4,flat,-1,normal,1
+61,male,Switzerland,asymptomatic,125.0,0.0,,normal,105.0,,0.0,downsloping,-1,reversable defect,3
+61,male,Switzerland,asymptomatic,130.0,0.0,,lv hypertrophy,115.0,,0.0,flat,-1,reversable defect,3
+61,male,Switzerland,asymptomatic,130.0,0.0,,normal,77.0,,2.5,flat,-1,normal,3
+61,male,Switzerland,asymptomatic,150.0,0.0,,normal,105.0,,0.0,flat,-1,reversable defect,1
+61,male,Switzerland,asymptomatic,150.0,0.0,,normal,117.0,,2.0,flat,-1,reversable defect,2
+61,male,Switzerland,asymptomatic,160.0,0.0,,st-t abnormality,145.0,,1.0,flat,-1,reversable defect,2
+62,female,Switzerland,typical angina,140.0,0.0,,normal,143.0,,0.0,flat,-1,normal,2
+62,female,Switzerland,asymptomatic,120.0,0.0,,st-t abnormality,123.0,,1.7,downsloping,-1,normal,1
+62,male,Switzerland,typical angina,120.0,0.0,,lv hypertrophy,134.0,,-0.8,flat,2,normal,1
+62,male,Switzerland,non-anginal,160.0,0.0,,normal,72.0,,0.0,flat,-1,normal,3
+62,male,Switzerland,asymptomatic,115.0,0.0,,normal,128.0,,2.5,downsloping,-1,normal,2
+62,male,Switzerland,asymptomatic,115.0,0.0,,normal,72.0,,-0.5,flat,-1,normal,1
+62,male,Switzerland,asymptomatic,150.0,0.0,,st-t abnormality,78.0,,2.0,flat,-1,reversable defect,3
+63,male,Switzerland,asymptomatic,100.0,0.0,,normal,109.0,,-0.9,flat,-1,normal,1
+63,male,Switzerland,asymptomatic,140.0,0.0,,lv hypertrophy,149.0,,2.0,upsloping,-1,normal,2
+63,male,Switzerland,asymptomatic,150.0,0.0,,normal,86.0,,2.0,flat,-1,normal,3
+63,male,Switzerland,asymptomatic,150.0,0.0,,st-t abnormality,154.0,,3.7,upsloping,-1,normal,3
+63,male,Switzerland,asymptomatic,185.0,0.0,,normal,98.0,,0.0,upsloping,-1,reversable defect,1
+64,female,Switzerland,asymptomatic,200.0,0.0,,normal,140.0,,1.0,flat,-1,normal,3
+64,female,Switzerland,asymptomatic,95.0,0.0,,normal,145.0,,1.1,downsloping,-1,normal,1
+64,male,Switzerland,asymptomatic,110.0,0.0,,normal,114.0,,1.3,downsloping,-1,normal,1
+65,male,Switzerland,asymptomatic,115.0,0.0,,normal,93.0,,0.0,flat,-1,reversable defect,1
+65,male,Switzerland,asymptomatic,145.0,0.0,,st-t abnormality,67.0,,0.5,flat,-1,fixed defect,3
+65,male,Switzerland,asymptomatic,155.0,0.0,,normal,154.0,,1.0,upsloping,-1,normal,0
+65,male,Switzerland,asymptomatic,160.0,0.0,,st-t abnormality,122.0,,0.5,flat,-1,reversable defect,3
+66,female,Switzerland,asymptomatic,155.0,0.0,,normal,90.0,,0.0,flat,-1,reversable defect,1
+66,male,Switzerland,asymptomatic,150.0,0.0,,normal,108.0,,2.0,flat,-1,reversable defect,3
+67,male,Switzerland,typical angina,145.0,0.0,,lv hypertrophy,125.0,,0.0,flat,-1,normal,2
+68,male,Switzerland,asymptomatic,135.0,0.0,,st-t abnormality,120.0,,0.0,upsloping,-1,reversable defect,3
+68,male,Switzerland,asymptomatic,145.0,0.0,,normal,136.0,,1.8,upsloping,-1,normal,1
+69,male,Switzerland,asymptomatic,135.0,0.0,,normal,130.0,,0.0,flat,-1,fixed defect,1
+69,male,Switzerland,asymptomatic,130.0,0.0,,st-t abnormality,140.0,,0.5,flat,-1,reversable defect,3
+70,male,Switzerland,asymptomatic,115.0,0.0,,st-t abnormality,92.0,,0.0,flat,-1,reversable defect,1
+70,male,Switzerland,asymptomatic,140.0,0.0,,normal,157.0,,2.0,flat,-1,reversable defect,3
+72,male,Switzerland,non-anginal,160.0,0.0,,lv hypertrophy,114.0,,1.6,flat,2,normal,0
+73,female,Switzerland,non-anginal,160.0,0.0,,st-t abnormality,121.0,,0.0,upsloping,-1,normal,1
+74,male,Switzerland,atypical angina,145.0,0.0,,st-t abnormality,123.0,,1.3,upsloping,-1,normal,1
+63,male,VA Long Beach,asymptomatic,140.0,260.0,,st-t abnormality,112.0,,3.0,flat,-1,normal,2
+44,male,VA Long Beach,asymptomatic,130.0,209.0,,st-t abnormality,127.0,,0.0,flat,-1,normal,0
+60,male,VA Long Beach,asymptomatic,132.0,218.0,,st-t abnormality,140.0,,1.5,downsloping,-1,normal,2
+55,male,VA Long Beach,asymptomatic,142.0,228.0,,st-t abnormality,149.0,,2.5,upsloping,-1,normal,1
+66,male,VA Long Beach,non-anginal,110.0,213.0,,lv hypertrophy,99.0,,1.3,flat,-1,normal,0
+66,male,VA Long Beach,non-anginal,120.0,0.0,,st-t abnormality,120.0,,-0.5,upsloping,-1,normal,0
+65,male,VA Long Beach,asymptomatic,150.0,236.0,,st-t abnormality,105.0,,0.0,flat,-1,normal,3
+60,male,VA Long Beach,non-anginal,180.0,0.0,,st-t abnormality,140.0,,1.5,flat,-1,normal,0
+60,male,VA Long Beach,non-anginal,120.0,0.0,,normal,141.0,,2.0,upsloping,-1,normal,3
+60,male,VA Long Beach,atypical angina,160.0,267.0,,st-t abnormality,157.0,,0.5,flat,-1,normal,1
+56,male,VA Long Beach,atypical angina,126.0,166.0,,st-t abnormality,140.0,,0.0,flat,-1,normal,0
+59,male,VA Long Beach,asymptomatic,140.0,0.0,,st-t abnormality,117.0,,1.0,flat,-1,normal,1
+62,male,VA Long Beach,asymptomatic,110.0,0.0,,normal,120.0,,0.5,flat,-1,normal,1
+63,male,VA Long Beach,non-anginal,130.0,0.0,,lv hypertrophy,140.0,,0.5,flat,-1,normal,1
+57,male,VA Long Beach,asymptomatic,128.0,0.0,,st-t abnormality,148.0,,1.0,flat,-1,normal,1
+62,male,VA Long Beach,asymptomatic,120.0,220.0,,st-t abnormality,86.0,,0.0,flat,-1,normal,0
+63,male,VA Long Beach,asymptomatic,170.0,177.0,,normal,84.0,,2.5,downsloping,-1,normal,4
+46,male,VA Long Beach,asymptomatic,110.0,236.0,,normal,125.0,,2.0,flat,-1,normal,1
+63,male,VA Long Beach,asymptomatic,126.0,0.0,,st-t abnormality,120.0,,1.5,downsloping,-1,normal,0
+60,male,VA Long Beach,asymptomatic,152.0,0.0,,st-t abnormality,118.0,,0.0,flat,-1,reversable defect,0
+58,male,VA Long Beach,asymptomatic,116.0,0.0,,normal,124.0,,1.0,upsloping,-1,normal,2
+64,male,VA Long Beach,asymptomatic,120.0,0.0,,st-t abnormality,106.0,,2.0,flat,-1,normal,1
+63,male,VA Long Beach,non-anginal,130.0,0.0,,st-t abnormality,111.0,,0.0,flat,-1,normal,3
+74,male,VA Long Beach,non-anginal,130.0,0.0,,normal,140.0,,0.5,flat,-1,normal,0
+52,male,VA Long Beach,non-anginal,128.0,0.0,,st-t abnormality,180.0,,3.0,upsloping,-1,normal,2
+69,male,VA Long Beach,asymptomatic,130.0,0.0,,st-t abnormality,129.0,,1.0,flat,-1,fixed defect,2
+51,male,VA Long Beach,asymptomatic,130.0,0.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,2
+60,male,VA Long Beach,asymptomatic,130.0,186.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,1
+56,male,VA Long Beach,asymptomatic,120.0,100.0,,normal,120.0,,1.5,flat,0,reversable defect,1
+55,male,VA Long Beach,non-anginal,130.0,228.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,3
+54,male,VA Long Beach,asymptomatic,130.0,0.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,3
+77,male,VA Long Beach,asymptomatic,124.0,171.0,,st-t abnormality,110.0,,2.0,upsloping,-1,normal,3
+63,male,VA Long Beach,asymptomatic,160.0,230.0,,normal,105.0,,1.0,flat,-1,normal,3
+55,male,VA Long Beach,non-anginal,0.0,0.0,,normal,155.0,,1.5,flat,-1,normal,3
+52,male,VA Long Beach,non-anginal,122.0,0.0,,normal,110.0,,2.0,downsloping,-1,normal,2
+64,male,VA Long Beach,asymptomatic,144.0,0.0,,st-t abnormality,122.0,,1.0,flat,-1,normal,3
+60,male,VA Long Beach,asymptomatic,130.0,281.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,2
+60,male,VA Long Beach,asymptomatic,120.0,0.0,,normal,133.0,,2.0,upsloping,-1,reversable defect,0
+58,male,VA Long Beach,asymptomatic,130.0,203.0,,normal,140.0,,0.5,flat,-1,normal,1
+59,male,VA Long Beach,asymptomatic,154.0,0.0,,st-t abnormality,131.0,,1.5,flat,0,normal,0
+61,male,VA Long Beach,non-anginal,120.0,0.0,,normal,80.0,,0.0,flat,-1,normal,3
+40,male,VA Long Beach,asymptomatic,125.0,0.0,,normal,165.0,,0.0,flat,-1,reversable defect,1
+61,male,VA Long Beach,asymptomatic,130.0,0.0,,st-t abnormality,86.0,,1.5,flat,-1,reversable defect,3
+41,male,VA Long Beach,asymptomatic,104.0,0.0,,st-t abnormality,111.0,,0.0,flat,-1,normal,0
+57,male,VA Long Beach,asymptomatic,130.0,277.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,4
+63,male,VA Long Beach,asymptomatic,136.0,0.0,,normal,84.0,,0.0,flat,-1,reversable defect,2
+59,male,VA Long Beach,asymptomatic,122.0,233.0,,normal,117.0,,1.3,downsloping,-1,normal,1
+51,male,VA Long Beach,asymptomatic,128.0,0.0,,normal,107.0,,0.0,flat,-1,normal,0
+59,male,VA Long Beach,non-anginal,130.0,0.0,,normal,128.0,,2.0,downsloping,-1,normal,2
+42,male,VA Long Beach,non-anginal,134.0,240.0,,normal,160.0,,0.0,flat,-1,normal,0
+55,male,VA Long Beach,non-anginal,120.0,0.0,,st-t abnormality,125.0,,2.5,flat,-1,reversable defect,1
+63,female,VA Long Beach,atypical angina,130.0,0.0,,normal,140.0,,0.5,flat,-1,normal,0
+62,male,VA Long Beach,asymptomatic,152.0,153.0,,st-t abnormality,97.0,,1.6,upsloping,-1,reversable defect,2
+56,male,VA Long Beach,atypical angina,124.0,224.0,,normal,161.0,,2.0,flat,-1,normal,0
+53,male,VA Long Beach,asymptomatic,126.0,0.0,,normal,106.0,,0.0,flat,-1,normal,1
+68,male,VA Long Beach,asymptomatic,138.0,0.0,,normal,130.0,,3.0,flat,-1,normal,2
+53,male,VA Long Beach,asymptomatic,154.0,0.0,,st-t abnormality,140.0,,1.5,flat,-1,normal,2
+60,male,VA Long Beach,non-anginal,130.0,316.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,3
+62,male,VA Long Beach,atypical angina,130.0,0.0,,normal,140.0,,0.5,flat,-1,normal,0
+59,male,VA Long Beach,asymptomatic,178.0,0.0,,lv hypertrophy,120.0,,0.0,flat,-1,reversable defect,1
+51,male,VA Long Beach,asymptomatic,130.0,218.0,,lv hypertrophy,140.0,,0.5,flat,-1,normal,0
+61,male,VA Long Beach,asymptomatic,110.0,0.0,,normal,108.0,,2.0,downsloping,-1,normal,2
+57,male,VA Long Beach,asymptomatic,130.0,311.0,,st-t abnormality,148.0,,2.0,flat,-1,normal,1
+56,male,VA Long Beach,non-anginal,170.0,0.0,,lv hypertrophy,123.0,,2.5,flat,-1,normal,4
+58,male,VA Long Beach,atypical angina,126.0,0.0,,normal,110.0,,2.0,flat,-1,normal,2
+69,male,VA Long Beach,non-anginal,140.0,0.0,,st-t abnormality,118.0,,2.5,downsloping,-1,normal,2
+67,male,VA Long Beach,typical angina,142.0,270.0,,normal,125.0,,2.5,upsloping,-1,normal,3
+58,male,VA Long Beach,asymptomatic,120.0,0.0,,lv hypertrophy,106.0,,1.5,downsloping,-1,reversable defect,1
+65,male,VA Long Beach,asymptomatic,130.0,0.0,,normal,140.0,,0.5,flat,-1,normal,1
+63,male,VA Long Beach,atypical angina,130.0,217.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,1
+55,male,VA Long Beach,atypical angina,110.0,214.0,,st-t abnormality,180.0,,0.5,flat,-1,normal,0
+57,male,VA Long Beach,asymptomatic,140.0,214.0,,st-t abnormality,144.0,,2.0,flat,-1,fixed defect,2
+65,male,VA Long Beach,typical angina,130.0,252.0,,normal,140.0,,0.5,flat,-1,normal,0
+54,male,VA Long Beach,asymptomatic,136.0,220.0,,normal,140.0,,3.0,flat,-1,normal,3
+72,male,VA Long Beach,non-anginal,120.0,214.0,,normal,102.0,,1.0,flat,-1,normal,3
+75,male,VA Long Beach,asymptomatic,170.0,203.0,,st-t abnormality,108.0,,0.0,flat,-1,reversable defect,1
+49,male,VA Long Beach,typical angina,130.0,0.0,,st-t abnormality,145.0,,3.0,flat,-1,normal,2
+51,male,VA Long Beach,non-anginal,130.0,339.0,,normal,140.0,,0.5,flat,-1,normal,3
+60,male,VA Long Beach,asymptomatic,142.0,216.0,,normal,110.0,,2.5,flat,-1,normal,2
+64,female,VA Long Beach,asymptomatic,142.0,276.0,,normal,140.0,,1.0,flat,-1,reversable defect,1
+58,male,VA Long Beach,asymptomatic,132.0,458.0,,normal,69.0,,1.0,downsloping,-1,normal,0
+61,male,VA Long Beach,asymptomatic,146.0,241.0,,normal,148.0,,3.0,downsloping,-1,normal,2
+67,male,VA Long Beach,asymptomatic,160.0,384.0,,st-t abnormality,130.0,,0.0,flat,-1,normal,2
+62,male,VA Long Beach,asymptomatic,135.0,297.0,,normal,130.0,,1.0,flat,-1,normal,2
+65,male,VA Long Beach,asymptomatic,136.0,248.0,,normal,140.0,,4.0,downsloping,-1,normal,4
+63,male,VA Long Beach,asymptomatic,130.0,308.0,,normal,138.0,,2.0,flat,-1,normal,2
+69,male,VA Long Beach,asymptomatic,140.0,208.0,,st-t abnormality,140.0,,2.0,flat,-1,normal,3
+51,male,VA Long Beach,asymptomatic,130.0,227.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,0
+62,male,VA Long Beach,asymptomatic,158.0,210.0,,normal,112.0,,3.0,downsloping,-1,normal,1
+55,male,VA Long Beach,non-anginal,130.0,245.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,1
+75,male,VA Long Beach,asymptomatic,136.0,225.0,,normal,112.0,,3.0,flat,-1,normal,3
+40,male,VA Long Beach,non-anginal,106.0,240.0,,normal,80.0,,0.0,flat,-1,reversable defect,0
+67,male,VA Long Beach,asymptomatic,120.0,0.0,,normal,150.0,,1.5,downsloping,-1,normal,3
+58,male,VA Long Beach,asymptomatic,110.0,198.0,,normal,110.0,,0.0,flat,-1,normal,1
+60,male,VA Long Beach,asymptomatic,130.0,195.0,,normal,140.0,,0.5,flat,-1,normal,0
+63,male,VA Long Beach,asymptomatic,160.0,267.0,,st-t abnormality,88.0,,2.0,flat,-1,normal,3
+35,male,VA Long Beach,non-anginal,130.0,161.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,0
+62,male,VA Long Beach,typical angina,112.0,258.0,,st-t abnormality,150.0,,0.5,flat,-1,normal,1
+43,male,VA Long Beach,asymptomatic,122.0,0.0,,normal,120.0,,0.5,upsloping,-1,normal,1
+63,male,VA Long Beach,non-anginal,130.0,0.0,,st-t abnormality,160.0,,3.0,flat,-1,normal,0
+68,male,VA Long Beach,non-anginal,150.0,195.0,,normal,132.0,,0.0,flat,-1,fixed defect,1
+65,male,VA Long Beach,asymptomatic,150.0,235.0,,normal,120.0,,1.5,flat,-1,normal,3
+48,male,VA Long Beach,non-anginal,102.0,0.0,,st-t abnormality,110.0,,1.0,downsloping,-1,normal,1
+63,male,VA Long Beach,asymptomatic,96.0,305.0,,st-t abnormality,121.0,,1.0,upsloping,-1,normal,1
+64,male,VA Long Beach,asymptomatic,130.0,223.0,,st-t abnormality,128.0,,0.5,flat,-1,normal,0
+61,male,VA Long Beach,asymptomatic,120.0,282.0,,st-t abnormality,135.0,,4.0,downsloping,-1,fixed defect,3
+50,male,VA Long Beach,asymptomatic,144.0,349.0,,lv hypertrophy,120.0,,1.0,upsloping,-1,reversable defect,1
+59,male,VA Long Beach,asymptomatic,124.0,223.0,,normal,117.0,,1.0,flat,-1,normal,1
+55,male,VA Long Beach,asymptomatic,150.0,160.0,,st-t abnormality,150.0,,0.0,flat,-1,normal,0
+45,male,VA Long Beach,non-anginal,130.0,236.0,,normal,140.0,,0.5,flat,-1,normal,0
+65,male,VA Long Beach,asymptomatic,130.0,312.0,,lv hypertrophy,140.0,,0.5,flat,-1,normal,3
+61,male,VA Long Beach,atypical angina,130.0,283.0,,normal,140.0,,0.5,flat,-1,normal,0
+49,male,VA Long Beach,non-anginal,130.0,142.0,,normal,140.0,,0.5,flat,-1,normal,3
+72,male,VA Long Beach,asymptomatic,130.0,211.0,,normal,140.0,,0.5,flat,-1,normal,1
+50,male,VA Long Beach,asymptomatic,130.0,218.0,,normal,140.0,,0.5,flat,-1,normal,1
+64,male,VA Long Beach,asymptomatic,130.0,306.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,3
+55,male,VA Long Beach,asymptomatic,116.0,186.0,,st-t abnormality,102.0,,0.0,flat,-1,normal,2
+63,male,VA Long Beach,asymptomatic,110.0,252.0,,st-t abnormality,140.0,,2.0,flat,-1,normal,2
+59,male,VA Long Beach,asymptomatic,125.0,222.0,,normal,135.0,,2.5,downsloping,-1,normal,3
+56,male,VA Long Beach,asymptomatic,130.0,0.0,,lv hypertrophy,140.0,,0.5,flat,-1,normal,1
+62,male,VA Long Beach,non-anginal,130.0,0.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,2
+74,male,VA Long Beach,asymptomatic,150.0,258.0,,st-t abnormality,130.0,,4.0,downsloping,-1,normal,3
+54,male,VA Long Beach,asymptomatic,130.0,202.0,,normal,112.0,,2.0,flat,-1,normal,1
+57,male,VA Long Beach,asymptomatic,110.0,197.0,,lv hypertrophy,100.0,,0.0,flat,-1,normal,0
+62,male,VA Long Beach,non-anginal,130.0,204.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,1
+76,male,VA Long Beach,non-anginal,104.0,223.0,,lv hypertrophy,120.0,,3.5,downsloping,-1,normal,4
+54,female,VA Long Beach,asymptomatic,138.0,274.0,,normal,105.0,,1.5,flat,-1,normal,1
+70,male,VA Long Beach,asymptomatic,170.0,192.0,,st-t abnormality,129.0,,3.0,downsloping,-1,normal,2
+61,female,VA Long Beach,atypical angina,140.0,298.0,,normal,120.0,,0.0,flat,-1,reversable defect,0
+48,male,VA Long Beach,asymptomatic,130.0,272.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,0
+48,male,VA Long Beach,non-anginal,132.0,220.0,,st-t abnormality,162.0,,0.0,flat,-1,fixed defect,1
+61,male,VA Long Beach,typical angina,142.0,200.0,,st-t abnormality,100.0,,1.5,downsloping,-1,normal,3
+66,male,VA Long Beach,asymptomatic,112.0,261.0,,normal,140.0,,1.5,upsloping,-1,normal,1
+68,male,VA Long Beach,typical angina,130.0,181.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,0
+55,male,VA Long Beach,asymptomatic,172.0,260.0,,normal,73.0,,2.0,flat,-1,normal,3
+62,male,VA Long Beach,non-anginal,120.0,220.0,,lv hypertrophy,86.0,,0.0,flat,-1,normal,0
+71,male,VA Long Beach,non-anginal,130.0,221.0,,normal,140.0,,0.5,flat,-1,normal,3
+74,male,VA Long Beach,typical angina,130.0,216.0,,normal,140.0,,0.5,flat,-1,normal,3
+53,male,VA Long Beach,non-anginal,155.0,175.0,,st-t abnormality,160.0,,0.5,flat,-1,fixed defect,0
+58,male,VA Long Beach,non-anginal,150.0,219.0,,st-t abnormality,118.0,,0.0,flat,-1,normal,2
+75,male,VA Long Beach,asymptomatic,160.0,310.0,,normal,112.0,,2.0,downsloping,-1,reversable defect,0
+56,male,VA Long Beach,non-anginal,130.0,208.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,4
+58,male,VA Long Beach,non-anginal,130.0,232.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,2
+64,male,VA Long Beach,asymptomatic,134.0,273.0,,normal,102.0,,4.0,downsloping,-1,normal,4
+54,male,VA Long Beach,non-anginal,130.0,203.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,0
+54,male,VA Long Beach,atypical angina,130.0,182.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,0
+59,male,VA Long Beach,asymptomatic,140.0,274.0,,normal,154.0,,2.0,flat,-1,normal,0
+55,male,VA Long Beach,asymptomatic,130.0,204.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,1
+57,male,VA Long Beach,asymptomatic,144.0,270.0,,st-t abnormality,160.0,,2.0,flat,-1,normal,3
+61,male,VA Long Beach,asymptomatic,130.0,292.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,3
+41,male,VA Long Beach,asymptomatic,150.0,171.0,,normal,128.0,,1.5,flat,-1,normal,0
+71,male,VA Long Beach,asymptomatic,130.0,221.0,,st-t abnormality,115.0,,0.0,flat,-1,normal,3
+38,male,VA Long Beach,asymptomatic,110.0,289.0,,normal,105.0,,1.5,downsloping,-1,normal,1
+55,male,VA Long Beach,asymptomatic,158.0,217.0,,normal,110.0,,2.5,flat,-1,normal,1
+56,male,VA Long Beach,asymptomatic,128.0,223.0,,st-t abnormality,119.0,,2.0,downsloping,-1,normal,2
+69,male,VA Long Beach,asymptomatic,130.0,223.0,,normal,140.0,,0.5,flat,-1,normal,2
+64,male,VA Long Beach,asymptomatic,150.0,193.0,,st-t abnormality,135.0,,0.5,flat,-1,normal,2
+72,male,VA Long Beach,asymptomatic,160.0,223.0,,lv hypertrophy,130.0,,1.5,flat,-1,normal,2
+69,male,VA Long Beach,asymptomatic,130.0,210.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,2
+56,male,VA Long Beach,asymptomatic,130.0,282.0,,normal,140.0,,0.5,flat,-1,normal,1
+62,male,VA Long Beach,asymptomatic,130.0,170.0,,st-t abnormality,120.0,,3.0,flat,-1,normal,4
+67,male,VA Long Beach,asymptomatic,130.0,369.0,,normal,140.0,,0.5,flat,-1,normal,3
+57,male,VA Long Beach,asymptomatic,156.0,173.0,,lv hypertrophy,119.0,,3.0,downsloping,-1,normal,3
+69,male,VA Long Beach,asymptomatic,130.0,289.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,3
+51,male,VA Long Beach,asymptomatic,130.0,223.0,,lv hypertrophy,140.0,,0.5,flat,-1,reversable defect,1
+48,male,VA Long Beach,asymptomatic,140.0,223.0,,normal,159.0,,1.5,upsloping,-1,normal,3
+69,male,VA Long Beach,asymptomatic,122.0,216.0,,lv hypertrophy,84.0,,0.0,flat,-1,reversable defect,2
+69,male,VA Long Beach,non-anginal,130.0,271.0,,lv hypertrophy,140.0,,0.5,flat,-1,normal,0
+64,male,VA Long Beach,asymptomatic,130.0,244.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,2
+57,male,VA Long Beach,atypical angina,180.0,285.0,,st-t abnormality,120.0,,0.8,flat,-1,normal,1
+53,male,VA Long Beach,asymptomatic,124.0,243.0,,normal,122.0,,2.0,flat,-1,reversable defect,1
+37,male,VA Long Beach,non-anginal,118.0,240.0,,lv hypertrophy,165.0,,1.0,flat,-1,normal,0
+67,male,VA Long Beach,asymptomatic,140.0,219.0,,st-t abnormality,122.0,,2.0,flat,-1,reversable defect,3
+74,male,VA Long Beach,non-anginal,140.0,237.0,,normal,94.0,,0.0,flat,-1,normal,1
+63,male,VA Long Beach,atypical angina,130.0,165.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,0
+58,male,VA Long Beach,asymptomatic,100.0,213.0,,st-t abnormality,110.0,,0.0,flat,-1,normal,0
+61,male,VA Long Beach,asymptomatic,190.0,287.0,,lv hypertrophy,150.0,,2.0,downsloping,-1,normal,4
+64,male,VA Long Beach,asymptomatic,130.0,258.0,,lv hypertrophy,130.0,,0.0,flat,-1,fixed defect,2
+58,male,VA Long Beach,asymptomatic,160.0,256.0,,lv hypertrophy,113.0,,1.0,upsloping,-1,normal,3
+60,male,VA Long Beach,asymptomatic,130.0,186.0,,lv hypertrophy,140.0,,0.5,flat,-1,normal,1
+57,male,VA Long Beach,asymptomatic,122.0,264.0,,lv hypertrophy,100.0,,0.0,flat,-1,normal,1
+55,male,VA Long Beach,non-anginal,130.0,223.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,0
+55,male,VA Long Beach,asymptomatic,120.0,226.0,,lv hypertrophy,127.0,,1.7,downsloping,-1,reversable defect,1
+56,male,VA Long Beach,asymptomatic,130.0,203.0,,normal,98.0,,1.5,flat,-1,reversable defect,1
+57,male,VA Long Beach,asymptomatic,130.0,207.0,,st-t abnormality,96.0,,1.0,flat,-1,normal,0
+61,male,VA Long Beach,non-anginal,130.0,284.0,,normal,140.0,,0.5,flat,-1,normal,1
+61,male,VA Long Beach,non-anginal,120.0,337.0,,normal,98.0,,0.0,flat,-1,normal,3
+58,male,VA Long Beach,non-anginal,150.0,219.0,,st-t abnormality,118.0,,0.0,flat,-1,normal,2
+74,male,VA Long Beach,asymptomatic,155.0,310.0,,normal,112.0,,1.5,downsloping,-1,normal,2
+68,male,VA Long Beach,non-anginal,134.0,254.0,,normal,151.0,,0.0,flat,-1,normal,0
+51,female,VA Long Beach,asymptomatic,114.0,258.0,,lv hypertrophy,96.0,,1.0,upsloping,-1,normal,0
+62,male,VA Long Beach,asymptomatic,160.0,254.0,,st-t abnormality,108.0,,3.0,flat,-1,normal,4
+53,male,VA Long Beach,asymptomatic,144.0,300.0,,st-t abnormality,128.0,,1.5,flat,-1,normal,3
+62,male,VA Long Beach,asymptomatic,158.0,170.0,,st-t abnormality,138.0,,0.0,flat,-1,normal,1
+46,male,VA Long Beach,asymptomatic,134.0,310.0,,normal,126.0,,0.0,flat,-1,normal,2
+54,female,VA Long Beach,asymptomatic,127.0,333.0,,st-t abnormality,154.0,,0.0,flat,-1,normal,1
+62,male,VA Long Beach,typical angina,130.0,139.0,,st-t abnormality,140.0,,0.5,flat,-1,normal,0
+55,male,VA Long Beach,asymptomatic,122.0,223.0,,st-t abnormality,100.0,,0.0,flat,-1,fixed defect,2
+58,male,VA Long Beach,asymptomatic,130.0,385.0,,lv hypertrophy,140.0,,0.5,flat,-1,normal,0
+62,male,VA Long Beach,atypical angina,120.0,254.0,,lv hypertrophy,93.0,,0.0,flat,-1,normal,1
