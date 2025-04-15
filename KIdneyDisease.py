@@ -25,7 +25,7 @@ df[cat_cols] = df[cat_cols].applymap(standardize_text)
 for col in df.columns:
     if df[col].dtype == 'object':  # Categorical
         df[col].fillna(df[col].mode()[0], inplace=True)
-    else:  # Numerical
+    else:  # Numerical  
         df[col].fillna(df[col].median(), inplace=True)
 
 # Save cleaned dataset
