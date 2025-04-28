@@ -1,0 +1,4 @@
+hello 
+krishn this side 
+
+writing a file without overwitinga shows it's appending the file
