@@ -1,4 +1,9 @@
-hello
-how are u 
-i'm and fine 
-wbu
+hello 
+krishn this side 
+    
+writing a file without overwitinga shows it's appending the file
+writing a file without overwitinga shows it's appending the filefirst line
+second line
+third line
+
+writing a file without overwitinga shows it's appending the file
